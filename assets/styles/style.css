@@ -1,0 +1,135 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.footer {
+  background-color: #dadce2;
+  height: 100vh;
+}
+.footer__container {
+  max-width: 95%;
+  margin: 0 auto;
+}
+.footer__text1 {
+  padding-top: 5%;
+  margin-bottom: 1%;
+}
+.footer__text2 {
+  font-family: "Russo One", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 3.1rem;
+  margin-bottom: 1%;
+}
+.footer__application {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 3%;
+}
+.footer__grid {
+  display: grid;
+  grid-template-columns: 2fr 1fr 1fr;
+  grid-template-rows: 1fr 1fr;
+  gap: 10px;
+  max-height: 25%;
+  margin-bottom: 7rem;
+}
+.footer__grid-item1 {
+  grid-column-start: 1;
+  grid-column-end: 3;
+  grid-row-start: 1;
+  grid-row-end: 3;
+}
+.footer__grid-item2 {
+  grid-column-start: 3;
+  grid-column-end: 4;
+  grid-row-start: 1;
+  grid-row-end: 2;
+}
+.footer__grid-item3 {
+  grid-column-start: 4;
+  grid-column-end: 5;
+  grid-row-start: 1;
+  grid-row-end: 2;
+}
+.footer__grid-item4 {
+  grid-column-start: 3;
+  grid-column-end: 4;
+  grid-row-start: 2;
+  grid-row-end: 3;
+}
+.footer__grid-item5 {
+  grid-column-start: 4;
+  grid-column-end: 5;
+  grid-row-start: 2;
+  grid-row-end: 3;
+}
+.footer__grid-item2 {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 1.2rem;
+}
+.footer__grid-item3 {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 1.2rem;
+}
+.footer__grid-item4 {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 1.2rem;
+}
+.footer__grid-item5 {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 1.2rem;
+}
+.footer__grid-phone {
+  text-decoration: none;
+  font-family: "Russo One", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  color: black;
+}
+.footer__grid-email {
+  text-decoration: none;
+  font-family: "Russo One", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  color: black;
+}
+.footer__grid-time {
+  text-decoration: none;
+  font-family: "Russo One", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  color: black;
+}
+.footer__grid-address {
+  text-decoration: none;
+  font-family: "Russo One", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  color: black;
+}
+.footer__bottom-link {
+  text-decoration: none;
+  color: black;
+}
+.footer__bottom {
+  display: flex;
+  justify-content: space-around;
+}
+.footer__grid-map {
+  max-width: 45rem;
+  max-height: 20rem;
+}
