@@ -1,0 +1,68 @@
+.box{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    
+}
+
+.title{
+    font-family: Russo One;
+    font-size: 3,125rem;
+    font-weight: 400;
+    text-align: center;
+}
+
+.title2{
+    margin-bottom: 10px;
+    justify-content: center;
+    text-align: center;
+}
+
+.box1{
+    width: 150px;
+    height: 150px;
+    border-radius: 10px;
+    text-align: center;
+    background-color: rgb(238, 233, 233);
+    box-sizing: border-box;
+    
+}
+
+.box2{
+    width: 150px;
+    height: 150px;
+    border-radius: 10px;
+    text-align: center;
+    background-color: rgb(238, 233, 233);
+    box-sizing: border-box;
+}
+
+.box3{
+    width: 150px;
+    height: 150px;
+    border-radius: 10px;
+    text-align: center;
+    background-color: rgb(238, 233, 233);
+    box-sizing: border-box;
+}
+
+.box4{
+    width: 150px;
+    height: 150px;
+    border-radius: 10px;
+    text-align: center;
+    background-color: rgb(238, 233, 233);
+    box-sizing: border-box;
+}
+
+.box5{
+    width: 150px;
+    height: 150px;
+    border-radius: 10px;
+    text-align: center;
+    background-color: rgb(238, 233, 233);
+    box-sizing: border-box;
+    
+}
+
