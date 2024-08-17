@@ -8,61 +8,83 @@
 
 .title{
     font-family: Russo One;
-    font-size: 3,125rem;
+    font-size: 2rem;
     font-weight: 400;
     text-align: center;
+    margin-top: 0.5rem;
 }
+
+
 
 .title2{
-    margin-bottom: 10px;
+    color: gray;
+    font-weight: bold;
+    font-family: Play;
     justify-content: center;
     text-align: center;
-}
-
-.box1{
-    width: 150px;
-    height: 150px;
-    border-radius: 10px;
-    text-align: center;
-    background-color: rgb(238, 233, 233);
-    box-sizing: border-box;
     
 }
 
-.box2{
-    width: 150px;
-    height: 150px;
-    border-radius: 10px;
+.title3{
+    font-family:;
+}
+
+.box1{
+    width: 15rem;
+    height: 15rem;
+    border-radius: 1rem;
     text-align: center;
-    background-color: rgb(238, 233, 233);
+    background-color: rgb(245, 243, 243);
+    box-sizing: border-box;
+    mar
+}
+
+.box2{
+    width: 15rem;
+    height: 15rem;
+    border-radius: 1rem;
+    text-align: center;
+    background-color: rgb(245, 243, 243);
     box-sizing: border-box;
 }
 
 .box3{
-    width: 150px;
-    height: 150px;
-    border-radius: 10px;
+    width: 15rem;
+    height: 15rem;
+    border-radius: 1rem;
     text-align: center;
-    background-color: rgb(238, 233, 233);
+    background-color: rgb(245, 243, 243);
     box-sizing: border-box;
 }
 
 .box4{
-    width: 150px;
-    height: 150px;
-    border-radius: 10px;
+    width: 15rem;
+    height: 15rem;
+    border-radius: 1rem;
     text-align: center;
-    background-color: rgb(238, 233, 233);
+    background-color: rgb(245, 243, 243);
     box-sizing: border-box;
 }
 
 .box5{
-    width: 150px;
-    height: 150px;
-    border-radius: 10px;
+    width: 15rem;
+    height: 15rem;
+    border-radius: 1rem;
     text-align: center;
-    background-color: rgb(238, 233, 233);
+    background-color: rgb(245, 243, 243);
     box-sizing: border-box;
     
 }
 
+
+.icon{
+    width: 3rem;
+    height: 3rem;
+    margin-top: 2rem;
+}
+
+.icon2{
+    width: 4rem;
+    height: 4rem;
+    margin-top: 1rem;
+}
