@@ -7,48 +7,38 @@ body {
   font-size: 4vw;
   font-family: "Russo One", sans-serif;
   line-height: 4vw;
-  margin: 0 0 35px 0;
+  margin: 0 0 2.1875rem 0;
   display: flex;
   position: relative;
   color: black;
   font-weight: 400;
-  font-family: Russo One, sans-serif;
 }
 .servies__block {
   display: flex;
   width: 100%;
-
-  flex-direction: row;
   height: auto;
 }
 .servies__card {
-  /* flex-shrink: 1;
-    flex-grow: 1; */
   min-width: auto;
-  max-width: 100%;
   width: 50%;
   height: auto;
   display: flex;
-  flex-direction: row;
   align-items: flex-end;
-  margin: 15px;
-  padding-bottom: 30px;
+  margin: 0.9375rem;
+  padding-bottom: 1.875rem;
 }
 
 .servies__img {
   width: 55%;
   position: relative;
-  display: inline-block;
-  overflow: hidden; /* Скрывает выходящие за пределы изображения */
-  border-radius: 30px;
 }
 .servies__img_picture {
   width: 100%;
+  height: 20rem;
   position: relative;
-  border-radius: 30px;
+  border-radius: 1.875rem;
   display: inline-block;
   vertical-align: top;
-  height: 320px;
   filter: brightness(0.85);
   transition: transform 0.7s cubic-bezier(0.25, 1, 0.5, 1), filter 0.7s ease,
     opacity 0.5s ease;
@@ -65,10 +55,10 @@ body {
   height: 100px;
   position: relative;
   display: flex;
-  margin-left: 35px;
-  margin-bottom: -80px;
+  margin-left: 2.1875rem;
+  margin-bottom: -5rem;
   z-index: 1;
-  border-radius: 250px;
+  border-radius: 15.625rem;
   align-items: center;
   justify-content: center;
   background-color: rgb(60 88 193);
@@ -78,8 +68,8 @@ body {
   position: relative;
   display: inline-block;
   vertical-align: top;
-  width: 60px;
-  height: 60px;
+  width: 3.75rem;
+  height: 3.75rem;
   object-fit: cover;
 }
 
@@ -87,20 +77,18 @@ body {
   width: 50%;
   position: relative;
   display: block;
-  padding: 20px;
+  padding: 1.25rem;
   background-color: rgb(240, 240, 240);
-  margin-left: -50px;
-  margin-bottom: -30px;
-  border-radius: 30px;
+  margin: 0 0 -1.875rem -3.125rem;
+  border-radius: 1.875rem;
 }
 .servies__subtitle {
   width: 100%;
   position: relative;
   display: flex;
-  margin-bottom: 20px;
+  margin-bottom: 1.25rem;
   justify-content: space-between;
   align-items: center;
-  display: flex;
   font-size: 1.3vw;
   font-family: "Play", sans-serif;
   font-weight: 700;
@@ -108,20 +96,19 @@ body {
 
 .servies__text {
   display: flex;
-  line-height: 25px;
+  line-height: 1.5625rem;
   font-family: "Play", sans-serif;
-  padding-bottom: 10px;
+  padding-bottom: 0.625rem;
   border-bottom-style: solid;
-  border-bottom-width: 1px;
+  border-bottom-width: 0.0625rem;
   border-bottom-color: rgba(0, 0, 0, 0.384);
 }
-.servies__span {
-}
+
 .servies__footer {
   width: 100%;
   position: relative;
   display: flex;
-  margin-top: 10px;
+  margin-top: 0.625rem;
   align-items: center;
   justify-content: space-between;
   font-family: "Play", sans-serif;
@@ -144,8 +131,7 @@ body {
   display: inline-flex;
   vertical-align: top;
   position: relative;
-  margin-left: 10px;
-  margin-right: 10px;
+  margin: 0 0.625rem 0 0.625rem;
   font-size: 1.5vw;
   color: rgb(60 88 193);
   font-weight: 700;
@@ -160,14 +146,14 @@ body {
   position: relative;
   text-decoration-line: none;
 
-  width: 55px;
-  height: 55px;
+  width: 3.4375rem;
+  height: 3.4375rem;
   z-index: 2;
   align-items: center;
   justify-content: center;
-  border-radius: 250px;
+  border-radius: 15.625rem;
   border-color: rgba(60 88 193);
-  border-width: 3px;
+  border-width: 0.1875rem;
 }
 .servies__btn img {
   position: relative;
@@ -183,11 +169,11 @@ body {
   position: absolute;
   bottom: 100%;
   transform: translateX(-50%);
-  width: 600px;
-  padding: 15px;
+  width: 37.5rem;
+  padding: 0.9375rem;
   background-color: rgba(60, 89, 193);
   color: rgb(254, 254, 254);
-  border-radius: 10px;
+  border-radius: 0.625rem;
   text-align: center;
   opacity: 0;
   visibility: hidden;
@@ -204,11 +190,11 @@ body {
   position: absolute;
   bottom: 100%;
   transform: translateX(-50%);
-  width: 600px;
-  padding: 15px;
+  width: 37.5rem;
+  padding: 0.9375rem;
   background-color: rgba(60, 89, 193);
   color: rgb(254, 254, 254);
-  border-radius: 10px;
+  border-radius: 0.625rem;
   text-align: center;
   opacity: 0;
   visibility: hidden;
