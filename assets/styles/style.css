@@ -3,7 +3,7 @@
     flex-direction: row;
     justify-content: space-evenly;
     flex-wrap: wrap;
-    
+    align-items: center;
 }
 
 .title{
@@ -36,7 +36,7 @@
     text-align: center;
     background-color: rgb(245, 243, 243);
     box-sizing: border-box;
-    mar
+    
 }
 
 .box2{
@@ -78,13 +78,40 @@
 
 
 .icon{
+    position: relative;
+    display: block;
+    vertical-align: top;
+    overflow-x: hidden;
+    overflow-y: hidden;
     width: 3rem;
     height: 3rem;
-    margin-top: 2rem;
+    margin-top: 0.6rem;
 }
 
 .icon2{
+    
     width: 4rem;
     height: 4rem;
-    margin-top: 1rem;
+    margin-top: 0.6rem;
+}
+
+.circle{
+    position: relative;
+    -webkit-box-align: center;
+    display: flex;
+    width: 5rem;
+    height: 5rem;
+    border-radius: 2.5rem;
+    align-items: center;
+    justify-content: center;
+    background-color: #3c58c1;
+    margin-top: 3rem;
+}
+
+.rect{
+    position: relative;
+    display: flex;
+    -webkit-box-align: center;
+    justify-content: center;
+    align-items: center;
 }
