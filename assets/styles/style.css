@@ -1,3 +1,44 @@
+.header {
+  font-family: Russo One, sans-serif;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.header img {
+  width: 95%;
+  border-radius: 80px;
+}
+.header__title {
+  position: absolute;
+  bottom: 700px;
+  left: 100px;
+  align-self: flex-start;
+  font-size: 5rem;
+  color: #dadce2;
+  -webkit-text-stroke: 0.5px black;
+}
+.header__info {
+  position: absolute;
+  align-self: flex-start;
+  left: 100px;
+  bottom: 650px;
+  font-size: 2rem;
+  color: #dadce2;
+}
+.header__button button {
+  position: absolute;
+  bottom: 500px;
+  left: 100px;
+  border-radius: 50px;
+  border-color: #3c58c1;
+  background-color: #3c58c1;
+  font-size: 2rem;
+  font-weight: 700;
+  cursor: pointer;
+  padding: 1.5rem 1.5rem;
+  box-shadow: inset 0px 0px 0px 5px rgb(163, 183, 188);
+}
+
 .company__description {
   width: 100%;
   max-width: 1550px;
@@ -228,7 +269,7 @@
 
 .reviews__title-01 {
   font-size: 4vw;
-  font-weight: 800;
+  font-weight: 700;
 }
 
 .reviews__all {
@@ -513,6 +554,7 @@ main {
   background-size: cover;
   width: 100%;
   height: auto;
+  margin-top: 2rem;
 }
 .application__form {
   width: 60%;
@@ -527,6 +569,7 @@ main {
   text-align: center;
   font-size: 1.75rem;
   color: black;
+  gap: 1rem;
 }
 .application__form h2 {
   font-size: 4rem;
