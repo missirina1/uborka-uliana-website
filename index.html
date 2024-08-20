@@ -4,6 +4,7 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="./assets/styles/style.css" />
+
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
@@ -16,10 +17,15 @@
       href="https://fonts.googleapis.com/css2?family=Inter:wght@100..900&family=Play:wght@400;700&family=Poppins:wght@400;700&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&family=Russo+One&display=swap"
       rel="stylesheet"
     />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@100..900&family=Nunito+Sans:ital,opsz,wght@0,6..12,200..1000;1,6..12,200..1000&family=Play:wght@400;700&family=Poppins:wght@400;700&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&family=Russo+One&display=swap" rel="stylesheet">
+
 
     <title>Document</title>
 </head>
 <body>
+
   <header>
     <div class="header">
       <img src="assets/pics/first screen.jpeg" alt="Cleaning service">
@@ -95,27 +101,59 @@
                 <span class="servies__price_cost">250</span>
                 <span class="servies__price_ot"> ₽ / м²</span>
               </div>
-              <button class="servies__btn">
+              <button class="servies__btn" data-popup="popup1">
                 <img
                   src="./assets/servies/servies__icon/servies__btn_black.png.png"
                   alt=""
                 />
-                <div class="servies__popup_up">
-                  <p>
-                    Генеральная уборка включает: Кухня: очистка плиты, духового
-                    шкафа и дверцы; мытье фасадов и шкафчиков; удаление жира и
-                    пыли с плитки; мойка и устранение запахов в холодильнике;
-                    очистка под кухней; продувка вытяжки. Ванная: дезинфекция
-                    плитки и сантехники; полировка зеркал; удаление налета и
-                    ржавчины. Общее: удаление пыли со стен, потолков, мебели;
-                    мойка и полировка поверхностей; продувка батарей, чистка
-                    розеток, вентиляции и полов. Мойка окон и доп. работы
-                    оплачиваются отдельно. Минимум заказа — 3000 ₽.
-                    Окончательная стоимость после осмотра.
-                  </p>
-                </div>
+                 
               </button>
+              <div class="servies__popup-overlay"id="popup1">
+                <div class="servies__popups" id="servies__popups">
+                    <h2>   Генеральная уборка включает:</h2>
+                    <ul>
+                        <li><h3>Кухня</h3>
+                             <ul>
+                            <li>очистка плиты, духового
+                                шкафа и дверцы</li>
+                                <li>удаление жира и
+                                    пыли с плитки</li>
+                                    <li>мойка и устранение запахов в холодильнике</li>
+                                    <li>очистка под кухней</li>
+                                    <li>продувка вытяжки</li>
+                        </ul>
+                        </li>
+                        <li>   <h3>Ванная: </h3>
+                            <ul>
+                                <li>плитки и сантехники
+                                </li>
+                                <li>полировка зеркал </li>
+                                <li>удаление налета и
+                                    ржавчины</li>
+                            </ul>
+                        </li>
+                        <li> <h3>Общее:</h3>
+                            <ul>
+                                <li>удаление пыли со стен, потолков, мебели
+                                </li>
+                                <li>мойка и полировка поверхностей </li>
+                                <li>продувка батарей, чистка
+                                    розеток, вентиляции и полов</li>
+                                   
+                            </ul>
+                        </li>
+                        <p>
+                        Мойка окон и доп. работы
+                    оплачиваются отдельно. <span class="servies__span">Минимум заказа — 3000 ₽.</span>
+                    Окончательная стоимость после осмотра.</p>
+                    </ul>
+     
+                 
+                
+                </div>
             </div>
+            </div>
+            
           </div>
         </div>
         <div class="servies__card">
@@ -146,24 +184,39 @@
                 <span class="servies__price_cost">250</span>
                 <span class="servies__price_ot"> ₽ / м²</span>
               </div>
-              <button class="servies__btn">
+              <button class="servies__btn "data-popup="popup2">
                 <img
                   src="./assets/servies/servies__icon/servies__btn_black.png.png"
                   alt=""
                 />
-                <div class="servies__popup_up">
-                  <p>
-                    Послестроительная уборка включает: сбор крупного мусора,
-                    удаление строительной пыли, детальную влажную уборку, чистку
-                    мягкой мебели, удаление пятен краски и цемента, мытье
-                    дверей, пола, стен, стеклянных поверхностей, плитки и швов,
-                    дезинфекцию санузлов, чистку радиаторов и вентиляции. Мойка
-                    окон и доп. работы оплачиваются отдельно. Окончательная
-                    стоимость после осмотра.
-                  </p>
-                </div>
-              </button>
-            </div>
+               
+        </button>
+        <div class="servies__popup-overlay" id="popup2">
+            <div class="servies__popups" id="servies__popups">
+          
+            <h2>Послестроительная уборка включает:</h2>
+           
+             <ul>
+                <li>сбор крупного мусора</li>
+                <li>удаление строительной пыли</li>
+                <li>детальная влажная уборка</li>
+                <li>чистка
+                    мягкой мебели</li>
+                <li>удаление пятен краски и цемента</li>
+                <li>мытье
+                    дверей, пола, стен, стеклянных поверхностей, плитки и швов</li>
+                    <li>дезинфекция санузлов</li>
+                    <li>чистка радиаторов и вентиляции</li>
+             </ul>
+          
+            <p>Мойка
+            окон и доп. работы оплачиваются <span class="servies__span">отдельно.</span>  Окончательная
+            стоимость после осмотра.</p>
+         
+        </div>
+    </div>
+
+      </div>
           </div>
         </div>
       </div>
@@ -199,27 +252,35 @@
                 <span class="servies__price_cost">250</span>
                 <span class="servies__price_ot"> ₽ / м²</span>
               </div>
-              <button class="servies__btn">
+              <button class="servies__btn" data-popup="popup3">
                 <img
                   src="./assets/servies/servies__icon/servies__btn_black.png.png"
                   alt=""
                 />
-                <div class="servies__popup_down">
-                  <p>
-                    Эта услуга выполняется после вывоза мебели, когда помещение
-                    остается пустым. Мы оцениваем состояние объекта и определяем
-                    необходимый формат уборки. Часто после освобождения
-                    пространства обнаруживаются скрытые дефекты: загрязнения
-                    стен, изношенные покрытия и другие. Формат уборки уточняется
-                    после осмотра. Уборка после переезда похожа на генеральную,
-                    но без мойки окон (дополнительные услуги обсуждаются
-                    отдельно). Минимальная сумма заказа — 15 000 ₽.
-                    Окончательная стоимость определяется после осмотра объекта.
-                  </p>
-                </div>
-              </button>
-              <!-- всплывающее окно -->
-            </div>
+                
+        </button>
+        <div class="servies__popup-overlay" id="popup3">
+            <div class="servies__popups" id="servies__popups">
+          <h2>Уборка до/после переезда (подготовка к продаже)</h2>
+          <p>
+            Эта услуга выполняется после вывоза мебели, когда помещение
+            остается пустым..</p> <p>Мы оцениваем состояние объекта и определяем
+            необходимый формат уборки. Часто после освобождения
+            пространства обнаруживаются скрытые дефекты: загрязнения
+            стен, изношенные покрытия и другие.</p>
+            
+            <p>Формат уборки уточняется
+            после осмотра. Уборка после переезда похожа на генеральную,
+            но без мойки окон
+            (дополнительные услуги обсуждаются
+            отдельно). </p>
+              <span class="servies__span"> Минимальная сумма заказа —15 000 ₽.</span>
+             <p>
+            Окончательная стоимость определяется после осмотра объекта.</p>
+         
+        </div>
+    </div>
+      </div>
           </div>
         </div>
         <div class="servies__card">
@@ -250,25 +311,29 @@
                 <span class="servies__price_cost">100</span>
                 <span class="servies__price_ot"> ₽ / м²</span>
               </div>
-              <button class="servies__btn">
+              <button class="servies__btn" data-popup="popup4">
                 <img
                   src="./assets/servies/servies__icon/servies__btn_black.png.png"
                   alt=""
                 />
-                <div class="servies__popup_down">
-                  <p>
-                    Мы работаем с любыми типами коммерческих помещений.
-                    Стоимость зависит от степени загрязнений и объема
-                    услуг,рассчитывается из фактического метража по полу. Среди
-                    наших клиентов, заказывающих профессиональную уборку
-                    коммерческих помещений, есть и крупные компании, и небольшие
-                    фирмы - с нами легко найти общий язык каждому. Перечень
-                    услуг и график их выполняемых работ составляются
-                    индивидуально.
-                  </p>
-                </div>
-              </button>
-            </div>
+                
+        </button>
+        <div class="servies__popup-overlay"id="popup4">
+            <div class="servies__popups" id="servies__popups">
+<h2>Уборка коммерческих помещений</h2>
+<p>
+            Мы работаем с<span class="servies__span"> ЛЮБЫМИ</span>  типами коммерческих помещений.</p>
+           <p>Стоимость зависит от степени загрязнений и объема
+            услуг,рассчитывается из фактического метража по полу. </p> <p>Среди
+            наших клиентов, заказывающих профессиональную уборку
+            коммерческих помещений, есть и крупные компании, и небольшие
+            фирмы - <span class="servies__span">  с нами легко найти общий язык каждому.</span> </p><p>Перечень
+            услуг и график их выполняемых работ составляются
+            индивидуально.</p>
+          </p>
+      
+    </div>
+      </div>
           </div>
         </div>
       </div>
@@ -419,6 +484,7 @@
         </div>
       </div>
     </footer>
+    <script src="./assets/styles/style.js"></script>
   </body>
   
 </html>
