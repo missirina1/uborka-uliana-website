@@ -1,44 +1,3 @@
-.header {
-  font-family: Russo One, sans-serif;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-}
-.header img {
-  width: 95%;
-  border-radius: 80px;
-}
-.header__title {
-  position: absolute;
-  bottom: 700px;
-  left: 100px;
-  align-self: flex-start;
-  font-size: 5rem;
-  color: #dadce2;
-  -webkit-text-stroke: 0.5px black;
-}
-.header__info {
-  position: absolute;
-  align-self: flex-start;
-  left: 100px;
-  bottom: 650px;
-  font-size: 2rem;
-  color: #dadce2;
-}
-.header__button button {
-  position: absolute;
-  bottom: 500px;
-  left: 100px;
-  border-radius: 50px;
-  border-color: #3c58c1;
-  background-color: #3c58c1;
-  font-size: 2rem;
-  font-weight: 700;
-  cursor: pointer;
-  padding: 1.5rem 1.5rem;
-  box-shadow: inset 0px 0px 0px 5px rgb(163, 183, 188);
-}
-
 .company__description {
   width: 100%;
   max-width: 1550px;
@@ -330,17 +289,16 @@
   color: #65665c;
   line-height: 30px;
 }
+/* 
+Начало стилей - Ирина */
 
-body {
-  box-sizing: border-box;
-}
 .servies {
   margin: 0 1.5rem 5rem 1.5rem;
+  box-sizing: border-box;
 }
 .servies__title {
-  font-size: 4vw;
+  font-size: 3rem;
   font-family: "Russo One", sans-serif;
-  line-height: 4vw;
   margin: 0 0 2.1875rem 0;
   display: flex;
   position: relative;
@@ -423,7 +381,7 @@ body {
   margin-bottom: 1.25rem;
   justify-content: space-between;
   align-items: center;
-  font-size: 1.3vw;
+  font-size: 1.3rem;
   font-family: "Play", sans-serif;
   font-weight: 700;
 }
@@ -436,6 +394,7 @@ body {
   border-bottom-style: solid;
   border-bottom-width: 0.0625rem;
   border-bottom-color: rgba(0, 0, 0, 0.384);
+  font-size: 1;
 }
 
 .servies__footer {
@@ -459,14 +418,14 @@ body {
   position: relative;
   color: black;
   font-weight: 700;
-  font-size: 1.3vw;
+  font-size: 1.3rem;
 }
 .servies__price_cost {
   display: inline-flex;
   vertical-align: top;
   position: relative;
   margin: 0 0.625rem 0 0.625rem;
-  font-size: 1.5vw;
+  font-size: 1.5rem;
   color: rgb(60 88 193);
   font-weight: 700;
 }
@@ -497,23 +456,6 @@ body {
 
 .servies__btn:hover img {
   transform: translateX(10px);
-}
-
-.servies__popup_down {
-  position: absolute;
-  bottom: 100%;
-  transform: translateX(-50%);
-  width: 37.5rem;
-  padding: 0.9375rem;
-  background-color: rgba(60, 89, 193);
-  color: rgb(254, 254, 254);
-  border-radius: 0.625rem;
-  text-align: center;
-  opacity: 0;
-  visibility: hidden;
-  transition: opacity 0.3s ease, visibility 0.3s ease;
-  font-family: "Play", sans-serif;
-  font-size: 1.3vw;
 }
 
 .servies__popup-overlay {
