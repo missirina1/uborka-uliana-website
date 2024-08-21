@@ -293,9 +293,9 @@
 Начало стилей - Ирина */
 
 .servies {
-  margin: 0 1.5rem 5rem 1.5rem;
+  margin: 0 1.5rem 0 1.5rem;
   box-sizing: border-box;
-  background-color: rgba(19, 170, 190, 0.123);
+  background-color: rgba(184, 223, 243, 0.6);
 }
 .servies__title {
   font-size: 3rem;
@@ -551,12 +551,22 @@ button a {
 }
 
 /*Конец стилей Анна Д.*/
+
+/* Стили - айтаж */
+.offer {
+  background-color: #ebe9e93b;
+  padding: 8rem 0 10rem 0;
+  margin: 0 1.5rem 0 1.5rem;
+}
 .box {
   display: flex;
   flex-direction: row;
   justify-content: space-evenly;
   flex-wrap: wrap;
   align-items: center;
+  background-color: ;
+  gap: 1.5rem;
+  position: relative;
 }
 
 .title {
@@ -564,7 +574,7 @@ button a {
   font-size: 2rem;
   font-weight: 400;
   text-align: center;
-  margin-top: 0.5rem;
+  margin: 0.5rem 0 3rem 0;
 }
 
 .title2 {
@@ -574,14 +584,30 @@ button a {
   justify-content: center;
   text-align: center;
 }
+.title3 {
+  font-size: 1.1rem;
+  margin: 1rem 0 0.5rem 0;
+}
+.price {
+  font-family: "Play";
+}
 
 .box1 {
   width: 15rem;
   height: 15rem;
   border-radius: 1rem;
   text-align: center;
-  background-color: rgb(245, 243, 243);
   box-sizing: border-box;
+  background-color: rgba(184, 223, 243, 0.6);
+  box-shadow: 0 0.125rem 0.625rem #3c58c1;
+}
+
+.box1:hover {
+  transform: scale(1.15) translateY(-10px); /* Увеличение и легкое перемещение вверх */
+  transition-delay: 0.1s;
+  transition: transform 0.7s cubic-bezier(0.42, 0, 0.58, 1),
+    filter 0.7s cubic-bezier(0.42, 0, 0.58, 1),
+    opacity 0.7s cubic-bezier(0.42, 0, 0.58, 1);
 }
 
 .box2 {
@@ -589,8 +615,16 @@ button a {
   height: 15rem;
   border-radius: 1rem;
   text-align: center;
-  background-color: rgb(245, 243, 243);
   box-sizing: border-box;
+  background-color: rgba(184, 223, 243, 0.6);
+  box-shadow: 0 0.125rem 0.625rem#3c58c1;
+}
+.box2:hover {
+  transform: scale(1.15) translateY(-10px); /* Увеличение и легкое перемещение вверх */
+  transition-delay: 0.1s;
+  transition: transform 0.7s cubic-bezier(0.42, 0, 0.58, 1),
+    filter 0.7s cubic-bezier(0.42, 0, 0.58, 1),
+    opacity 0.7s cubic-bezier(0.42, 0, 0.58, 1);
 }
 
 .box3 {
@@ -598,17 +632,32 @@ button a {
   height: 15rem;
   border-radius: 1rem;
   text-align: center;
-  background-color: rgb(245, 243, 243);
   box-sizing: border-box;
+  background-color: rgba(184, 223, 243, 0.6);
+  box-shadow: 0 0.125rem 0.625rem #3c58c1;
 }
-
+.box3:hover {
+  transform: scale(1.15) translateY(-10px); /* Увеличение и легкое перемещение вверх */
+  transition-delay: 0.1s;
+  transition: transform 0.7s cubic-bezier(0.42, 0, 0.58, 1),
+    filter 0.7s cubic-bezier(0.42, 0, 0.58, 1),
+    opacity 0.7s cubic-bezier(0.42, 0, 0.58, 1);
+}
 .box4 {
   width: 15rem;
   height: 15rem;
   border-radius: 1rem;
   text-align: center;
-  background-color: rgb(245, 243, 243);
   box-sizing: border-box;
+  background-color: rgba(184, 223, 243, 0.6);
+  box-shadow: 0 0.125rem 0.625rem#3c58c1;
+}
+.box4:hover {
+  transform: scale(1.15) translateY(-10px); /* Увеличение и легкое перемещение вверх */
+  transition-delay: 0.1s;
+  transition: transform 0.7s cubic-bezier(0.42, 0, 0.58, 1),
+    filter 0.7s cubic-bezier(0.42, 0, 0.58, 1),
+    opacity 0.7s cubic-bezier(0.42, 0, 0.58, 1);
 }
 
 .box5 {
@@ -616,16 +665,19 @@ button a {
   height: 15rem;
   border-radius: 1rem;
   text-align: center;
-  background-color: rgb(245, 243, 243);
   box-sizing: border-box;
+  background-color: rgba(184, 223, 243, 0.6);
+  box-shadow: 0 0.125rem 0.625rem #3c58c1;
 }
-
+.box5:hover {
+  transform: scale(1.15) translateY(-10px); /* Увеличение и легкое перемещение вверх */
+  transition-delay: 0.1s;
+  transition: transform 0.7s cubic-bezier(0.42, 0, 0.58, 1),
+    filter 0.7s cubic-bezier(0.42, 0, 0.58, 1),
+    opacity 0.7s cubic-bezier(0.42, 0, 0.58, 1);
+}
 .icon {
-  position: relative;
   display: block;
-  vertical-align: top;
-  overflow-x: hidden;
-  overflow-y: hidden;
   width: 3rem;
   height: 3rem;
   margin-top: 0.6rem;
@@ -638,8 +690,6 @@ button a {
 }
 
 .circle {
-  position: relative;
-  -webkit-box-align: center;
   display: flex;
   width: 5rem;
   height: 5rem;
@@ -651,12 +701,37 @@ button a {
 }
 
 .rect {
-  position: relative;
   display: flex;
-  -webkit-box-align: center;
   justify-content: center;
   align-items: center;
 }
+.box__popup {
+  margin: 3.5rem 0 0 0;
+  width: 170%;
+  height: max-content;
+  background-color: #3c58c1;
+  color: white;
+  padding: 0.5rem 1.5rem 0.5rem 1.5rem;
+  text-align: start;
+  box-shadow: 0 -0.125rem 0.625rem rgba(0, 0, 0, 0.2);
+  opacity: 0;
+  visibility: hidden;
+  transition: all 0.5s ease-in-out;
+  border-radius: 25px;
+  font-family: "Play";
+  font-size: 0.9rem;
+  position: absolute;
+  z-index: 10;
+}
+.box1:hover .box__popup,
+.box2:hover .box__popup,
+.box3:hover .box__popup,
+.box4:hover .box__popup,
+.box5:hover .box__popup {
+  opacity: 1;
+  visibility: visible;
+}
+/* конец стилей - Айтаж */
 * {
   margin: 0;
   padding: 0;

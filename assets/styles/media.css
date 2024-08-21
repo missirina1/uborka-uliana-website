@@ -52,3 +52,20 @@
 }
 
 /* Конец адаптива - Ирина */
+
+/* Адаптип - Айтаж */
+@media (max-width: 768px) {
+  .box__popup {
+    display: none;
+  }
+}
+@media (max-width: 1000px) {
+  .box__popup {
+    margin: 3.5rem 0 0 0;
+    width: 100%;
+    height: max-content;
+  }
+  .box {
+    gap: 2.5rem;
+  }
+}
