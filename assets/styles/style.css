@@ -1,34 +1,145 @@
-.header {
-  font-family: Russo One, sans-serif;
+body {
+  font-family: Noto Sans, sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.header{
+background-color: rgba(184, 223, 243, 0.6);
+}
+
+
+.header__logo {
+  box-shadow: rgb(60 88 193) 1px 1px 2px 1px;
+  background-color: white;
+  z-index: 1;
+  border-radius: 15.625rem;
+  align-items: center;
+  justify-content: center;
+  display: flex;
+  position: relative;
+  width: 6rem;
+  height: 6rem;
+  margin-right: 1rem;
+}
+
+.header__logo img {
+  width: 5rem;
+  border-radius: 15.625rem;
+}
+
+.header-info {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+  height: auto;
+  padding: 0.8rem 3rem 0.7rem 2.8rem;
+}
+
+.logo__text, .contacts__text {
   display: flex;
   flex-direction: column;
-  align-items: center;
+  padding-left: 0.5rem;
 }
-.header img {
-  width: 95%;
-  border-radius: 80px;
+
+.text_bold {
+  letter-spacing: 0.13rem;
+  font-weight: 800;
+  font-size: 1.3rem;
+}
+
+.text_thin {
+  font-size: 1.1rem;
+}
+
+.header__one, .header__two {
+  display: flex;
+  align-items: center;
+  flex-direction: row;
+}
+
+.contacts__circle {
+  width: 3.44rem;
+  height: 3.44rem;
+  position: relative;
+  display: flex;
+  margin: 0 1rem 0 2.2rem;
+  z-index: 1;
+  border-radius: 15.625rem;
+  align-items: center;
+  justify-content: center;
+  background-color: rgb(60 88 193);
+}
+.contacts__img_icon {
+position: relative;
+display: inline-block;
+vertical-align: top;
+width: 1.7rem;
+height: 1.7rem;
+object-fit: cover;
+}
+
+.header-banner{
+  display: grid;
+  grid-template-columns: auto;
+  grid-template-rows: 20% 15% 10% 15% 20%;
+}
+
+.banner-img {
+  grid-area: 1 / 1 / 6 / 2;
+  justify-self: center;
+  box-shadow: rgb(60 88 193) 0px 2px 5px 2px;
+  width: 97%;
+  border-radius: 2.5rem;
+  margin: 0.5rem 0.5rem 3rem 0.5rem;
 }
 .header__title {
-  position: absolute;
-  bottom: 700px;
-  left: 100px;
-  align-self: flex-start;
-  font-size: 5rem;
-  color: #dadce2;
-  -webkit-text-stroke: 0.5px black;
+  text-shadow: 1px 1px 2px black;
+  grid-area: 2 / 1 / 3 / 2;
+  justify-self: flex-start;
+  align-self: center;
+  padding-left: 4rem;
+  font-size: 4.6rem;
+  color: white;
 }
-.header__info {
-  position: absolute;
-  align-self: flex-start;
-  left: 100px;
-  bottom: 650px;
-  font-size: 2rem;
-  color: #dadce2;
+
+.banner-text {
+  grid-area: 3 / 1 / 4 / 2;
+  display: flex;
+  align-items: center;
+  flex-direction: row;
+  margin-left: 4rem;
 }
+
+.banner-text img {
+  width: 4rem;
+}
+
+.header__text {
+  align-self: center;
+  padding-left: 1.5rem;
+  font-size: 1.25rem;
+  color: #dadce2;
+  margin-left: 1.5rem;
+  border-left-style: solid;
+  border-left-width: 5px;
+  border-left-color: #24A5E8;
+}
+
+.header__button {
+grid-area: 5 / 1 / 6 / 2;
+display: flex;
+flex-direction: row;
+justify-self: flex-start;
+align-self: start;
+padding-left: 4rem;
+}
+
 .header__button button {
-  position: absolute;
-  bottom: 500px;
-  left: 100px;
+  font-family: Noto Sans, sans-serif;
+  height: 5rem;
   border-radius: 50px;
   border-color: #3c58c1;
   background-color: #3c58c1;
@@ -36,7 +147,53 @@
   font-weight: 700;
   cursor: pointer;
   padding: 1.5rem 1.5rem;
+  font-size: 1.5rem;
+  font-weight: 400;
   box-shadow: inset 0px 0px 0px 5px rgb(163, 183, 188);
+}
+
+.header__button button:hover {
+  height: 5rem;
+  border-radius: 50px;
+  border-color: #3c58c1;
+  background-color: #3c58c1;
+  font-size: 2rem;
+  font-weight: 700;
+  cursor: pointer;
+  padding: 1.5rem 1.5rem;
+  font-size: 1.5rem;
+  font-weight: 400;
+  box-shadow: none
+}
+
+.banner-contacts {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding-left: 2rem;
+}
+
+.banner-contacts > .text_bold {
+  color: white;
+  text-shadow: 1px 1px 2px black;
+}
+.banner-contacts > .text_thin{
+  color: #dadce2;
+}
+
+.banner-socio {
+  grid-area: 4 / 1 / 5 / 2;
+  justify-self: flex-end;
+  align-self: center;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  margin-right: 4rem;
+}
+
+.banner-socio > .contacts__circle:hover {
+  background-color: #24A5E8;
+  border: 2px solid #3c58c1;
 }
 
 .company__description {
@@ -586,8 +743,9 @@ main {
   box-shadow: inset 0px 0px 0px 5px rgb(163, 183, 188);
 }
 button a {
+  padding: 1rem;
   text-decoration: none;
-  color: #dadce2;
+  color: #ffffff;
 }
 
 /*Конец стилей Анна Д.*/
