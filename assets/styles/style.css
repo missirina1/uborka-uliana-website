@@ -677,7 +677,7 @@ body {
 
 .servies__popups {
   position: absolute;
-  width: auto%;
+  width: auto;
   height: max-content;
   top: 50%;
   left: 50%;
