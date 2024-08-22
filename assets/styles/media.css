@@ -278,16 +278,18 @@
   .servies__title {
     text-align: center;
     line-height: 3rem;
+    font-weight: 600;
   }
   .servies__block {
     display: block;
+    padding: 0 1rem 2rem 1rem;
   }
   .servies__card {
     display: block;
   }
   .servies__info {
     width: auto;
-    margin: 1.5rem 0 0 0;
+    margin: 0.5rem 0 0 0;
   }
   .servies__img {
     width: auto;
@@ -295,6 +297,13 @@
   .servies__popups {
     width: 65%;
     font-size: 1rem;
+  }
+  .servies__img_picture {
+    height: auto;
+  }
+
+  .servies__img:hover .servies__img_picture {
+    transform: scale(1.01) translateY(-10px); /* Увеличение и легкое перемещение вверх */
   }
 }
 
@@ -308,7 +317,7 @@
 }
 @media (max-width: 1000px) {
   .box__popup {
-    margin: 3.5rem 0 0 0;
+    margin: 1.5rem 0 0 0;
     width: 100%;
     height: max-content;
   }
