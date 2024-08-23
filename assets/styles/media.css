@@ -3,10 +3,10 @@
   .header-info {
     padding: 0.8rem 2rem 0.7rem 2rem;
   }
-  .header__logo {
+  /* .header__logo {
     width: none;
     height: none;
-  }
+  } */
   .text_bold {
     letter-spacing: 0;
     font-weight: 800;
