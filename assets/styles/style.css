@@ -83,7 +83,7 @@
   width: 10px;
   height: 10px;
   margin-right: 10px;
-  background-color: rgb(60 88 193);
+  background-color: #24A5E8; 
   border-top-left-radius: 250px;
   border-top-right-radius: 250px;
   border-bottom-right-radius: 250px;
@@ -158,7 +158,7 @@
   padding-left: 20px;
   border-left-style: solid;
   border-left-width: 5px;
-  border-left-color: rgb(60 88 193);
+  border-left-color: #24A5E8; 
   line-height: 35px;
   display: flex;
   margin-bottom: 20px; 
@@ -209,7 +209,7 @@
 .reviews__article-0{
   width: 10px;
   height: 10px;
-  background-color: rgb(60 88 193);
+  background-color:  #24A5E8; 
   margin-right: 10px;
   border-top-left-radius: 250px;
   border-top-right-radius: 250px;
