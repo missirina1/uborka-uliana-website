@@ -134,6 +134,9 @@
   .application__form h2 {
     font-size: 2.5rem;
   }
+  .application__form:hover {
+    transform: none;
+  }
   .application__form-button button {
     font-size: 1.5rem;
     height: 4rem;
@@ -176,6 +179,9 @@
     padding: 2rem;
     margin: 1rem;
     font-size: 0.9rem;
+  }
+  .application__form:hover {
+    transform: none;
   }
   .application__form-button button {
     font-size: 1.2rem;
@@ -285,6 +291,9 @@
     padding: 1rem;
     margin: 1rem;
     font-size: 0.75rem;
+  }
+  .application__form:hover {
+    transform: none;
   }
   .application__form-button button {
     font-size: 1.2rem;
