@@ -247,62 +247,60 @@
   /* Header */
 } /* Адаптив - ирина */
 @media (max-width: 1000px) {
-  .servies__title {
+  .services__title {
     margin: 0 0 2.1875rem 0;
     display: block;
     text-align: center;
   }
-  .servies__block {
+  .services__block {
     flex-direction: column;
     align-items: center;
   }
-  .servies__card {
+  .services__card {
     width: auto;
     height: auto;
     align-items: center;
   }
-  .servies__popups {
+  .services__popups {
     width: 65%;
   }
 }
 @media (max-width: 768px) {
-  .servies {
-    box-sizing: border-box;
+  .services {
     margin: 0 1.5rem 0 1.5rem;
-    width: 100%;
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: center;
   }
-  .servies__title {
+  .services__title {
     text-align: center;
     line-height: 3rem;
     font-weight: 600;
   }
-  .servies__block {
+  .services__block {
     display: block;
-    padding: 0 1rem 2rem 1rem;
+    padding: 0 1rem 2rem;
   }
-  .servies__card {
+  .services__card {
     display: block;
   }
-  .servies__info {
+  .services__info {
     width: auto;
     margin: 0.5rem 0 0 0;
   }
-  .servies__img {
+  .services__img {
     width: auto;
   }
-  .servies__popups {
+  .services__popups {
     width: 65%;
     font-size: 1rem;
   }
-  .servies__img_picture {
+  .services__img_picture {
     height: auto;
   }
 
-  .servies__img:hover .servies__img_picture {
+  .services__img:hover .services__img_picture {
     transform: scale(1.01) translateY(-10px); /* Увеличение и легкое перемещение вверх */
   }
 }
