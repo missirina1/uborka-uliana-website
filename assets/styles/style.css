@@ -927,7 +927,6 @@ button a {
   border-style: solid;
   font-family: "Play";
   font-size: 0.9rem;
-  position: absolute;
   z-index: 10;
 }
 .box1:hover .box__popup,
