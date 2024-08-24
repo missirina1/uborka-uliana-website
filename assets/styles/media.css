@@ -316,3 +316,144 @@
     gap: 2.5rem;
   }
 }
+/* Начало блока description - yuliya*/
+@media (max-width: 1135px) {
+  .company__icon-one {
+  height: 31.25rem
+}
+
+  .company__icon-two {
+    display: none;
+  }
+  .description__part-two {
+    width: 100%;
+  }
+}
+
+@media (max-width: 920px) {
+  .company__description-1 {
+ 
+    justify-content: center;
+    align-items: stretch;
+    flex-direction: column-reverse;
+  }
+
+  .company__description__part-1 {
+  width: 100%;
+  position: relative;
+  padding-left: 0.625rem;
+  display: flex;
+  justify-content: center;
+  }
+ .company__icon-one {
+   height: 43.75rem;
+   width: 31.25rem;
+  }
+ .company__description__part-two {
+   width: 90%;
+   position: relative;
+   display: flex;
+   align-items: center;
+   flex-direction: column;
+  }
+
+  .description__articles {
+    margin-right: 0px;
+    margin-bottom: 1.25rem;
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .description__subtitle {
+
+    align-items: center;
+    margin-bottom: 0.625rem;
+  }
+
+  .description__article-2 {
+    padding-left: 0.625rem;
+    margin-bottom: 0.625rem;
+    line-height: 1.563rem;
+  }
+  .description__article-3 {
+    line-height: 1.563rem;
+  }
+  .description__article-1 {    
+    margin-bottom: 0.313rem;
+    display: flex;
+    justify-content: center;
+  }
+
+    .description__article-0 {
+
+      justify-content: center;
+    }
+    .description__article-00 {
+      display: none;
+    }
+}
+
+
+@media (max-width: 637px) {
+  .company__description-1 {
+    flex-wrap: wrap;
+  }
+  .company__description__part-1 {
+    width: 100%;}
+  .company__description__part-two { 
+      padding-bottom: 20px;
+    } 
+  .company__icon-one {
+   height: 31.25rem;
+   width: 25rem;
+  }
+}
+
+@media (max-width: 508px) {
+  .company__icon-one {
+    height: 18.75rem;
+    width: 18.75rem;
+}
+}
+/* Конец блока description - yuliya*/
+
+/* Начало блока reviews - yuliya*/
+@media (max-width: 750px) {
+.reviews__section-one {
+  align-items: center;
+}
+.reviews__article-0 {
+  display: none;}
+  
+.reviews__title-01{
+  padding-bottom: 0.063rem;
+}
+}
+
+@media (max-width: 470px) {
+  .review__first-text-1 {
+    flex-direction: column;
+  }
+  .review__first-text-2 {
+    flex-direction: column;
+  }
+  .review__photo {
+    padding-top: 0.625rem;
+}
+.reviews__article-line-1 {
+  width: 90%;}
+  .reviews__article-line-2 {
+    width: 90%;
+  }
+  .reviews__article-4 {
+    padding-right: 2.188rem;
+  }
+  .reviews__article-6 {
+    padding-right:2.188rem;
+  }
+  }
+  
+  /* Конец блока reviews - yuliya*/
