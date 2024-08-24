@@ -589,27 +589,28 @@ body {
 /* 
 Начало стилей - Ирина */
 
-.servies {
-  margin: 0 1.5rem 0 1.5rem;
+.services {
   box-sizing: border-box;
-  background-color: rgba(184, 223, 243, 0.362);
+  background-color: rgba(184, 223, 243, 0.6);
+  overflow-x: hidden;
 }
-.servies__title {
+.services__title {
   font-size: 3rem;
-  font-family: "Russo One", sans-serif;
-  margin: 0 0 1rem 0;
+  font-family: "Noto Sans", sans-serif;
+  font-weight: 900;
+  margin: 0 0 1rem 1.5rem;
   padding: 2rem 0 0 1rem;
   display: flex;
   position: relative;
   color: black;
-  font-weight: 400;
 }
-.servies__block {
+.services__block {
   display: flex;
   width: 100%;
   height: auto;
+  padding: 0 1.5rem 2rem 1.5rem;
 }
-.servies__card {
+.services__card {
   min-width: auto;
   width: 50%;
   height: auto;
@@ -617,13 +618,14 @@ body {
   align-items: flex-end;
   margin: 0.9375rem;
   padding-bottom: 1.875rem;
+  justify-content: flex-end;
 }
 
-.servies__img {
+.services__img {
   width: 55%;
   position: relative;
 }
-.servies__img_picture {
+.services__img_picture {
   width: 100%;
   height: 20rem;
   position: relative;
@@ -633,17 +635,17 @@ body {
   filter: brightness(0.85);
   transition: transform 0.7s cubic-bezier(0.25, 1, 0.5, 1), filter 0.7s ease,
     opacity 0.5s ease;
-  transition-delay: 0.1s; /* Задержка перед началом анимации */
+  transition-delay: 0.1s;
 }
 
-.servies__img:hover .servies__img_picture {
-  transform: scale(1.15) translateY(-10px); /* Увеличение и легкое перемещение вверх */
+.services__img:hover .services__img_picture {
+  transform: scale(1.15) translateY(-0.625rem); /* Увеличение и легкое перемещение вверх */
   filter: brightness(1) contrast(1); /* Увеличиваем яркость и контраст */
   opacity: 0.95; /* Немного затемняет изображение */
 }
-.servies__circle {
-  width: 100px;
-  height: 100px;
+.services__circle {
+  width: 6.25rem;
+  height: 6.25rem;
   position: relative;
   display: flex;
   margin-left: 2.1875rem;
@@ -655,7 +657,7 @@ body {
   background-color: rgb(60 88 193);
 }
 
-.servies__img_icon {
+.services__img_icon {
   position: relative;
   display: inline-block;
   vertical-align: top;
@@ -664,16 +666,17 @@ body {
   object-fit: cover;
 }
 
-.servies__info {
+.services__info {
   width: 50%;
   position: relative;
   display: block;
   padding: 1.25rem;
-  background-color: rgb(240, 240, 240);
+  background-color: rgb(218, 220, 226);
   margin: 0 0 -1.875rem -3.125rem;
   border-radius: 1.875rem;
+  box-shadow: rgb(60 88 193) 0 0.125rem 0.3125rem 0.125rem;
 }
-.servies__subtitle {
+.services__subtitle {
   width: 100%;
   position: relative;
   display: flex;
@@ -681,37 +684,40 @@ body {
   justify-content: space-between;
   align-items: center;
   font-size: 1.3rem;
-  font-family: "Play", sans-serif;
-  font-weight: 700;
+  font-family: "Noto Sans", sans-serif;
+  font-weight: 900;
 }
 
-.servies__text {
+.services__text {
   display: flex;
   line-height: 1.5625rem;
-  font-family: "Play", sans-serif;
+  font-family: "Noto Sans", sans-serif;
+  font-weight: 400;
   padding-bottom: 0.625rem;
   border-bottom-style: solid;
   border-bottom-width: 0.0625rem;
   border-bottom-color: rgba(0, 0, 0, 0.384);
-  font-size: 1;
+  font-size: 1rem;
 }
 
-.servies__footer {
+.services__footer {
   width: 100%;
   position: relative;
   display: flex;
   margin-top: 0.625rem;
   align-items: center;
   justify-content: space-between;
-  font-family: "Play", sans-serif;
+  font-family: "Noto Sans", sans-serif;
+  font-weight: 400;
 }
-.servies__price {
+.services__price {
   position: relative;
   display: flex;
   align-items: center;
-  font-family: "Play", sans-serif;
+  font-family: "Noto Sans", sans-serif;
+  font-weight: 400;
 }
-.servies__price_ot {
+.services__price_ot {
   display: inline-flex;
   vertical-align: top;
   position: relative;
@@ -719,7 +725,7 @@ body {
   font-weight: 700;
   font-size: 1.3rem;
 }
-.servies__price_cost {
+.services__price_cost {
   display: inline-flex;
   vertical-align: top;
   position: relative;
@@ -729,7 +735,7 @@ body {
   font-weight: 700;
 }
 
-.servies__btn {
+.services__btn {
   display: inline-flex;
   cursor: pointer;
   vertical-align: top;
@@ -747,17 +753,17 @@ body {
   border-color: rgba(60 88 193);
   border-width: 0.1875rem;
 }
-.servies__btn img {
+.services__btn img {
   position: relative;
   transition: transform 0.5s ease;
   width: 70%;
 }
 
-.servies__btn:hover img {
-  transform: translateX(10px);
+.services__btn:hover img {
+  transform: translateX(0.625rem);
 }
 
-.servies__popup-overlay {
+.services__popup-overlay {
   position: fixed;
   top: 0;
   left: 0;
@@ -768,9 +774,9 @@ body {
   z-index: 999;
 }
 
-.servies__popups {
+.services__popups {
   position: absolute;
-  width: 65%;
+  width: auto;
   height: max-content;
   top: 50%;
   left: 50%;
@@ -781,18 +787,20 @@ body {
   border-radius: 1.5625rem;
   box-shadow: 0 0.125rem 0.625rem #3c59c1d6;
   z-index: 1000;
-  font-size: 1.5rem;
+  font-size: 1.1rem;
+  font-family: "Noto Sans", sans-serif;
+  font-weight: 400;
 }
-.servies__popups h2 {
+.services__popups h2 {
   margin: 0 0 1rem 0;
 }
-.servies__popups h3 {
+.services__popups h3 {
   margin: 1rem 0 0 0;
 }
-.servies__popups p {
+.services__popups p {
   margin: 1rem 0 1rem 0;
 }
-.servies__span {
+.services__span {
   color: #3c58c1;
 }
 /*Начало стилей Анна Д.*/
@@ -869,8 +877,8 @@ body {
 
 /* Стили - айтаж */
 .offer {
-  background-color: #ebe9e93b;
-  padding: 8rem 0 10rem 0;
+  /* background-color: rgb(218, 220, 226); */
+  padding: 4rem 0 4rem 0;
   margin: 0 1.5rem 0 1, 5rem;
 }
 .box {
@@ -879,27 +887,28 @@ body {
   justify-content: space-evenly;
   flex-wrap: wrap;
   align-items: center;
-
   gap: 1.5rem;
   position: relative;
 }
 
 .title {
-  font-family: Russo One;
+  font-family: "Noto Sans", sans-serif;
+  font-weight: 900;
   font-size: 2rem;
-  font-weight: 400;
   text-align: center;
   margin: 0.5rem 0 3rem 0;
 }
 
 .title2 {
-  color: gray;
-  font-weight: bold;
-  font-family: Play;
+  color: black;
+  font-family: "Noto Sans", sans-serif;
+  font-weight: 400;
   justify-content: center;
   text-align: center;
 }
 .title3 {
+  font-family: "Noto Sans", sans-serif;
+  font-weight: 700;
   font-size: 1.1rem;
   margin: 1rem 0 0.5rem 0;
 }
@@ -914,7 +923,7 @@ body {
   text-align: center;
   box-sizing: border-box;
   background-color: rgba(184, 223, 243, 0.6);
-  box-shadow: 0 0.125rem 0.625rem #3c58c1;
+  box-shadow: rgb(60 88 193) 0px 2px 5px 2px;
 }
 
 .box1:hover {
@@ -932,7 +941,7 @@ body {
   text-align: center;
   box-sizing: border-box;
   background-color: rgba(184, 223, 243, 0.6);
-  box-shadow: 0 0.125rem 0.625rem#3c58c1;
+  box-shadow: rgb(60 88 193) 0px 2px 5px 2px;
 }
 .box2:hover {
   transform: scale(1.15) translateY(-10px); /* Увеличение и легкое перемещение вверх */
@@ -949,7 +958,7 @@ body {
   text-align: center;
   box-sizing: border-box;
   background-color: rgba(184, 223, 243, 0.6);
-  box-shadow: 0 0.125rem 0.625rem #3c58c1;
+  box-shadow: rgb(60 88 193) 0px 2px 5px 2px;
 }
 .box3:hover {
   transform: scale(1.15) translateY(-10px); /* Увеличение и легкое перемещение вверх */
@@ -965,7 +974,7 @@ body {
   text-align: center;
   box-sizing: border-box;
   background-color: rgba(184, 223, 243, 0.6);
-  box-shadow: 0 0.125rem 0.625rem#3c58c1;
+  box-shadow: rgb(60 88 193) 0px 2px 5px 2px;
 }
 .box4:hover {
   transform: scale(1.15) translateY(-10px); /* Увеличение и легкое перемещение вверх */
@@ -982,7 +991,8 @@ body {
   text-align: center;
   box-sizing: border-box;
   background-color: rgba(184, 223, 243, 0.6);
-  box-shadow: 0 0.125rem 0.625rem #3c58c1;
+
+  box-shadow: rgb(60 88 193) 0px 2px 5px 2px;
 }
 .box5:hover {
   transform: scale(1.15) translateY(-10px); /* Увеличение и легкое перемещение вверх */
@@ -1024,11 +1034,11 @@ body {
   align-items: center;
 }
 .box__popup {
-  margin: 3.7rem 0 0 0;
+  margin: 1.5rem 0 0 5rem;
   width: 200%;
-  height: max-content;
-  background-color: rgba(213, 213, 213, 0.767);
-  color: rgb(0, 0, 0);
+  height: auto;
+  background-color: rgb(218 220 226);
+  color: rgb(5, 5, 5);
   padding: 0.5rem 1.5rem 0.5rem 1.5rem;
   text-align: start;
   box-shadow: 0 -0.125rem 0.625rem 3c #bcbcbd;
@@ -1040,7 +1050,8 @@ body {
   border-color: #3c58c1;
   border-width: 0.05rem;
   border-style: solid;
-  font-family: "Play";
+  font-family: "Noto Sans", sans-serif;
+  font-weight: 400;
   font-size: 0.9rem;
   z-index: 10;
 }

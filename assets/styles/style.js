@@ -1,5 +1,5 @@
 // Получаем все кнопки
-const buttons = document.querySelectorAll(".servies__btn");
+const buttons = document.querySelectorAll(".services__btn");
 
 // Проходимся по каждой кнопке и добавляем обработчик событий
 buttons.forEach((button) => {
@@ -11,10 +11,10 @@ buttons.forEach((button) => {
 });
 
 // Получаем все всплывающие окна и добавляем обработчик закрытия
-const popups = document.querySelectorAll(".servies__popup-overlay");
+const popups = document.querySelectorAll(".services__popup-overlay");
 
 popups.forEach((popupOverlay) => {
-  const popupContent = popupOverlay.querySelector(".servies__popups");
+  const popupContent = popupOverlay.querySelector(".services__popups");
 
   // Закрытие при клике на затемненный фон
   popupOverlay.addEventListener("click", () => {
