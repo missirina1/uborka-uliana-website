@@ -1,7 +1,7 @@
 /* Начало блока description - yuliya*/
 @media (max-width: 1135px) {
   .company__icon-one {
-  height: 31.25rem
+  height: 31.25rem;
 }
 
   .company__icon-two {
@@ -9,6 +9,10 @@
   }
   .description__part-two {
     width: 100%;
+  }
+  .company__description {
+    padding-top: 3rem;
+    padding-bottom: 3rem;
   }
 }
 
@@ -49,8 +53,11 @@
     align-items: center;
   }
 
-  .description__subtitle {
+  .description__title {
+    font-size: 2.5rem;
+  }
 
+  .description__subtitle {
     align-items: center;
     margin-bottom: 0.625rem;
   }
@@ -92,12 +99,19 @@
    height: 31.25rem;
    width: 25rem;
   }
+  .description__title {
+    font-size: 1.8rem;
+    font-weight: 600;
+  }
 }
 
 @media (max-width: 508px) {
   .company__icon-one {
     height: 18.75rem;
     width: 18.75rem;
+}
+.description__title {
+  font-size: 1.5rem;
 }
 }
 /* Конец блока description - yuliya*/
@@ -112,7 +126,11 @@
   
 .reviews__title-01{
   padding-bottom: 0.063rem;
+  font-size: 3rem;
+  font-weight: 600;
 }
+.reviews__article-1 {
+  line-height: 1.5rem;}
 }
 
 @media (max-width: 470px) {
@@ -135,6 +153,9 @@
   }
   .reviews__article-6 {
     padding-right:2.188rem;
+  }
+  .reviews__title-01{
+    font-size: 2rem;
   }
   }
   

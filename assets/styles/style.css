@@ -9,8 +9,8 @@
   position: relative;
   padding-left: 1.5rem;
   padding-right: 1.5rem;
-  padding-top: 6.25rem;
-  padding-bottom: 6.25rem;
+  padding-top: 4rem;
+  padding-bottom: 4rem;
 }
 
 .company__description-1 {
@@ -69,14 +69,14 @@
   display: flex;
   align-items: center;
   margin-bottom: 0.625rem;
-  font-family: Nato Sans, sans-serif;
+  font-family:"Noto Sans", sans-serif;
 }
 .description__article-0{
   width: 100%;
   display: flex;
   align-items: center;
  font-weight: 400; 
- font-family: Nato Sans, sans-serif;
+ font-family: "Noto Sans", sans-serif;
 }
 
 .description__article-00{
@@ -98,13 +98,13 @@
     margin-bottom: 1.25rem;}
 
 .description__title {
-    font-size: 4vw;
+    font-size: 3rem;
     margin-top: 0rem;
     margin-right: 0rem;
     margin-left: 0rem;
     font-weight: 900;
     margin-bottom: 0rem;
-    font-family: Nato Sans, sans-serif;
+    font-family: "Noto Sans", sans-serif;
 }
 
 .description__articles{
@@ -163,7 +163,7 @@
   display: flex;
   margin-bottom: 1.25rem ;
   font-weight: 400;
-  font-family: Nato Sans, sans-serif;
+  font-family: "Noto Sans", sans-serif;
 }
 
 .description__article-3{
@@ -173,7 +173,7 @@
     line-height: 2.188rem;
     margin-bottom: 1.875rem;
     font-weight: 400;
-    font-family: Nato Sans, sans-serif;
+    font-family: "Noto Sans", sans-serif;
 }
 /* Конец блока description - yuliya*/
 
@@ -223,20 +223,19 @@
 }
 
 .reviews__title{
-font-size: 4vw;
-    line-height: 4vw;
-    margin-top: 0px;
-    margin-right: 0rem;
-    margin-bottom: 0rem;
-    margin-left: 0rem;
-    display: inline-flex;
-    position: relative;
-    font-family: Nato Sans, sans-serif;
-    font-weight: 900;
+  line-height: 4vw;
+  margin-top: 0px;
+  margin-right: 0rem;
+  margin-bottom: 0rem;
+  margin-left: 0rem;
+  display: inline-flex;
+  position: relative;
   }
 
 .reviews__title-01{
-  font-size: 4vw; 
+  font-size: 4.8rem;
+  font-family: "Noto Sans", sans-serif;
+  font-weight: 900; 
   padding-bottom: 1.25rem;
 }
 
@@ -283,6 +282,8 @@ font-size: 4vw;
   border-bottom-right-radius:  15.625rem;
   border-bottom-left-radius:  15.625rem;
   padding-left: 0.625rem;
+  padding-top: 0.625rem;
+  padding-bottom: 0.625rem;
 }
 
 .reviews__articles_1{
@@ -308,10 +309,9 @@ font-size: 4vw;
 }
 
 .reviews__article-3{
-  display: flex;
-  font-size: 1.3vw;
+  display: flex;padding-top: 10px;
    padding-top: 10px;
-   font-family: Nato Sans, sans-serif;
+   font-family:"Noto Sans", sans-serif;
    font-weight: 400;
 }
 
@@ -325,7 +325,7 @@ font-size: 4vw;
 
 .reviews__article-4{
   padding-right: 0.938rem;
-  font-family: Nato Sans, sans-serif;
+  font-family:"Noto Sans", sans-serif;
   font-weight: 400;
 }
 
@@ -366,8 +366,7 @@ font-size: 4vw;
 
 .reviews__article-5{
   display: flex;
-  font-size: 1.3vw; 
-  font-family: Nato Sans, sans-serif;
+  font-family: "Noto Sans", sans-serif;
   font-weight: 400;
 }
 
@@ -379,7 +378,7 @@ font-size: 4vw;
     width: 98%;
 }
 .reviews__article-6{
-  font-family: Nato Sans, sans-serif;
+  font-family: "Noto Sans", sans-serif;
  font-weight: 400;
   padding-right: 0.938rem;
 }
