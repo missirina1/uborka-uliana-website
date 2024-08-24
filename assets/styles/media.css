@@ -122,6 +122,26 @@
     display: none;
   }
   /* Header */
+  .application {
+    margin-top: 0rem;
+  }
+  .application__form {
+    width: 100%;
+    padding: 2rem;
+    margin: 1rem;
+    font-size: 1.5rem;
+  }
+  .application__form h2 {
+    font-size: 2.5rem;
+  }
+  .application__form:hover {
+    transform: none;
+  }
+  .application__form-button {
+    font-size: 1.5rem;
+    height: 4rem;
+    padding: 0.7rem 1.5rem;
+  }
 }
 
 @media (min-width: 450px) and (max-width: 600px) {
@@ -150,6 +170,23 @@
   }
   .banner-socio {
     margin-right: 2rem;
+  }
+  .application__form h2 {
+    font-size: 2rem;
+  }
+  .application__form {
+    width: 100%;
+    padding: 2rem;
+    margin: 1rem;
+    font-size: 0.9rem;
+  }
+  .application__form:hover {
+    transform: none;
+  }
+  .application__form-button {
+    font-size: 1.2rem;
+    height: 3rem;
+    padding: 0.5rem 1.5rem;
   }
 }
 
@@ -244,8 +281,27 @@
     align-self: center;
     padding-left: 1rem;
   }
-  /* Header */
-} /* Адаптив - ирина */
+   /* Header */
+  
+  .application__form h2 {
+    font-size: 1.5rem;
+  }
+  .application__form {
+    width: 100%;
+    padding: 1rem;
+    margin: 1rem;
+    font-size: 0.75rem;
+  }
+  .application__form:hover {
+    transform: none;
+  }
+  .application__form-button {
+    font-size: 1.2rem;
+    height: 3rem;
+    padding: 0.5rem 1.5rem;
+  }
+} 
+/* Адаптив - ирина */
 @media (max-width: 1000px) {
   .servies__title {
     margin: 0 0 2.1875rem 0;
