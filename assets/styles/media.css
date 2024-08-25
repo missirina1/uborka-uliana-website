@@ -522,12 +522,6 @@
 /*адаптив Яна*/
 
 @media all and (max-width: 1260px) {
-  .footer__application-button {
-    /*padding: 0%;
-    height: 4.7rem;
-    width: 13rem;
-    font-size: 1.3rem;*/
-  }
   .footer__grid {
     display: grid;
     grid-template-columns: 1fr 1fr;
