@@ -32,7 +32,7 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,200..1000;1,200..1000&display=swap" rel="stylesheet">
-<link rel="stylesheet" href="<link rel="preconnect" href="https://fonts.googleapis.com">
+
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Noto+Sans:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">">
 
@@ -80,8 +80,8 @@
       <img src="assets/pics/first screen.jpeg" alt="Cleaning service" class="banner-img">
       <h1 class="header__title">УБОРКА от Ульяны</h1>
       <div class="banner-text">
-        <img src="./assets/images/svgexport-9_73 (1).svg">
-        <p class="header__text">Услуги пpoфеcсиональной убoрки пoмещeний paзличнoго типa</br>с гарантией чистоты и безопасности</p>
+        <img src="./assets/images/hand.svg" alt="hand">
+        <p class="header__text">Услуги пpoфеcсиональной убoрки пoмещeний paзличнoго типa <br>с гарантией чистоты и безопасности</p>
       </div>
       <div class="banner-socio">
         <div class="contacts__circle">
@@ -102,26 +102,27 @@
     </div>
   </header>
   <main> 
-<div class="company__description">
+ 
+  <section class="company__description">
     <div class="company__description-1">
+      <div class="company__description__part-1">
     <div class="company__description__part-one">
-      <div class="company__icon-one"> <img src="assets/styles/reviews/cleaning-01.jpg" alt="cleaning"   class="description-1"> </div>  
-    </div> 
-  
+      <div class="company__icon-one"> <img src="./assets/styles/reviews/cleaning-01.jpg" alt="cleaning"   class="description-1"> </div>  
+    </div>
+  </div>
     <div class="company__description__part-two">
       <div class="description__articles">
         <div class="description__subtitle">
          <div class="description__article-00"> </div>  
-       <div class="description__article-0"> Пару слов о нашей компании! </div>   </div>  
-  
-      <div class="description__article-1"> <h1 class="description__title">Немного о компании:</h1>  </div>   
-  
+       <div class="description__article-0"> Пару слов о нашей компании! </div>  
+       </div>   
+      <div class="description__article-1"> <h1 class="description__title">Немного о компании:</h1>  </div>    
     </div>
   
       <div class="description__part-one">
         <div class="company__icon-two"> 
           <div class="icon-two"> 
-          <img src="assets/styles/reviews/cleaning-02.jpg" alt="cleaning"  class="description-2"> 
+          <img src="./assets/styles/reviews/cleaning-02.jpg" alt="cleaning"  class="description-2"> 
          </div>
          </div> 
          <div class="description__part-two">
@@ -132,11 +133,10 @@
       </div> 
     </div>
   </div>
-  </div>
-  </div>
-
+</section>
     <section class="services">
       <h2 class="services__title">Услуги компании</h2>
+      <div class="services__box-card">
       <div class="services__block">
         <div class="services__card">
           <div class="services__img">
@@ -173,11 +173,11 @@
                 />
                  
               </button>
-              <div class="services__popup-overlay"id="popup1">
+              <div class="services__popup-overlay" id="popup1">
                 <div class="services__popups" >
                     <h2>   Генеральная уборка включает:</h2>
-                    <ul>
-                        <li><h3>Кухня</h3>
+                    
+                        <h3>Кухня:</h3>
                              <ul>
                             <li>очистка плиты, духового
                                 шкафа и дверцы</li>
@@ -187,8 +187,8 @@
                                     <li>очистка под кухней</li>
                                     <li>продувка вытяжки</li>
                         </ul>
-                        </li>
-                        <li>   <h3>Ванная: </h3>
+                      
+                          <h3>Ванная: </h3>
                             <ul>
                                 <li>плитки и сантехники
                                 </li>
@@ -196,8 +196,8 @@
                                 <li>удаление налета и
                                     ржавчины</li>
                             </ul>
-                        </li>
-                        <li> <h3>Общее:</h3>
+                        
+                         <h3>Общее:</h3>
                             <ul>
                                 <li>удаление пыли со стен, потолков, мебели
                                 </li>
@@ -206,13 +206,13 @@
                                     розеток, вентиляции и полов</li>
                                    
                             </ul>
-                        </li>
+                       
                         <p>
                         Мойка окон и доп. работы
                     оплачиваются отдельно. <span class="services__span">Минимум заказа — 3000 ₽.</span>
                     </p>
                     <p>Окончательная стоимость после осмотра.</p>
-                    </ul>
+                   
      
                  
                 
@@ -284,7 +284,7 @@
           </div>
             </div>
         </div>
-      </div>
+  
       <div class="services__block">
         <div class="services__card">
           <div class="services__img">
@@ -329,11 +329,11 @@
           <h2>Уборка до/после переезда (подготовка к продаже)</h2>
           <p>
             Эта услуга выполняется после вывоза мебели, когда помещение
-            остается пустым..</p> <p>Мы оцениваем состояние объекта и определяем
+            остается пустым.</p> 
+            <p>Мы оцениваем состояние объекта и определяем
             необходимый формат уборки. Часто после освобождения
             пространства обнаруживаются скрытые дефекты: загрязнения
             стен, изношенные покрытия и другие.</p>
-            
             <p>Формат уборки уточняется
             после осмотра. Уборка после переезда похожа на генеральную,
             но без мойки окон
@@ -407,11 +407,12 @@
           </div>
         </div>
       </div>
- 
+    </div>
+  </div>
     </section>
          <!-- код - Айтаж  -->
-          <section>
-    <div class="offer">
+          <section class="offer">
+   
     <div>
         <p class="title2">Наши специальные предложения!</p>
     </div>
@@ -434,9 +435,9 @@
                   <li>Уборка межрамного пространства</li>
                  </ul>
                  <ul>
-                  <li>Сезонное мытье стандартных окон — <span class="services__span"> от 700 руб/створка</span>.;</li>
-                  <li>После ремонта —<span class="services__span">  от 900 руб./створка.</span> </li>
-                  <li>Удаление пленки — рассчитывается отдельно.</li>
+                  <li>Сезонное мытье стандартных окон — <span class="services__span"> от 700 руб/створка</span></li>
+                  <li>После ремонта —<span class="services__span">  от 900 руб./створка</span> </li>
+                  <li>Удаление пленки — рассчитывается отдельно</li>
                  </ul>
                 </div>
         </div>
@@ -452,9 +453,9 @@
                   </p>
                   <ul> <li>Подготовка: убираем мешающие предметы</li>
                   <li>Очистка фасада от грязи и пыли</li>
-                  <li>Мойка с применением специализированной химии.</li></ul>
+                  <li>Мойка с применением специализированной химии</li></ul>
   
-                  <p>Смыв осуществляется водой под высоким давлением. Время работ: <span class="services__span">от 2-5 часов</span>  для небольших объектов, до нескольких дней для крупных.</p>
+                  <p>Смыв осуществляется водой под высоким давлением. Время работ: <span class="services__span">от 2-5 часов</span>  для небольших объектов, до нескольких дней для крупных</p>
                  </div>
         </div>
         <div class="box3">
@@ -470,9 +471,9 @@
                   <li>Чистку роторной машиной</li>
                   <li>Удаление остатков жидкости</li>
                 <li>Влагопоглощение</li>
-                <li>Нанесение финишного покрытия.</li></ul>
+                <li>Нанесение финишного покрытия</li></ul>
   
-                  <p> Время работ:  <span class="services__span">от 2-5 часов</span>  для небольших объектов, до нескольких дней для крупных.</p>
+                  <p> Время работ:<span class="services__span"> от 2-5 часов</span> для небольших объектов, до нескольких дней для крупных.</p>
                  </div>
         </div>
         <div class="box4">
@@ -497,7 +498,7 @@
             <p>Делаем работу качественно, в срок, уже более 100 довольных клиентов, которые возвращаются и рекомендуют знакомым!</p>
             <p>Связаться с нами:</p>
             <div class="application__form-button">
-                <button><a href="https://vk.com/away.php?to=https%3A%2F%2Fwa.me%2Fc%2F79633506065&cc_key=">Оставить заявку</a></button>
+                <a href="https://vk.com/away.php?to=https%3A%2F%2Fwa.me%2Fc%2F79633506065&cc_key=">ОСТАВИТЬ ЗАЯВКУ</a>
             </div>
         </div>
     </section>
@@ -505,40 +506,49 @@
       <div class="reviews__section">
     
         <div class="reviews__section-one">
-          <div class="reviews__section-one-1">  
-           <div class="reviews__article-0"> </div>   
+          <div class="reviews__section-one-1"> 
+          <div class="reviews__article-0"> </div>   
           <div class="reviews__article-1"> Мы будем искренне рады, если в нашем лице Вы найдете достойного партнера.  Мы ценим каждого из Вас!   </div>
-           </div> 
-          
-          <div class="reviews__title"> <h2 class="reviews__title-01">Отзывы о нас:</h2> </div>   
-    
+           </div>      
+          <div class="reviews__title"> <h1 class="reviews__title-01">Отзывы о нас:</h1> </div>   
       </div>
     
        <div class="reviews__all">
-    
-      <div class="review__first">
-      <div class="reviews__article-3"> <h3>Виктория</h3> </div>
-      <div class="reviews__article-line-1">   </div>
-      <div class="reviews__article-4"> <p>Здравствуйте! 
+      <div class="review__first">   
+        <div class="review__first-text">
+          <div class="review__first-text-1">
+            <div class="review__photo">   <img src="./assets/styles/reviews/review_foto_1.jpg" alt="review"  class="review__photo-1"> </div>
+            <div class="reviews__articles_1">
+              <div class="reviews__article-3"> <h3>Виктория</h3> </div>
+              <div class="reviews__article-line-1">   </div>
+              <div class="reviews__article-4"> <p>Здравствуйте! 
         Хочу оставить отзыв, по уборке плитки и паркета.
         Спасибо большое! Это незаменимо ,когда у тебя маленький ребенок, который ползает, или любитель ходить босиком как я.
         Что паркет был настолько грязный - я не ожидала. Ещё раз спасибо вам!</p> </div>  
       </div> 
+    </div>
+    </div>
+    </div>
     
-        <div class="review__second">
-        <div class="reviews__article-5"> <h3>Татьяна</h3> </div>
-        <div class="reviews__article-line-2">   </div>
-        <div class="reviews__article-6"> <p> Божечки! Как я благодарна ребятам за качество проделанной работы!  
-          Только что полученная служебная квартира, которая наводила ужас от её состояния, один запах чего стоил - преобразилась после уборки.
-           Это как из золушки - сделали принцессу! А какой запах стал в квартире!!! Невероятной свежести! 
-           Окна, пол, стены, потолок, двери, кухня, сан узел, диван - всё сверкает!
-          Ребятам огромнейшая благодарность за работу!!! Большое человеческое спасибо!!!</p> </div>   
-          </div>  
-      </div>
-    
-      </div>
-      </div>
+    <div class="review__second">   
+      <div class="review__second-text">
+        <div class="review__first-text-2">
+          <div class="review__photo">   <img src="./assets/styles/reviews/review_foto_2.jpg" alt="review"  class="review__photo-1"> </div>
+          <div class="reviews__articles_2">
+            <div class="reviews__article-5"> <h3>Татьяна</h3> </div>
+            <div class="reviews__article-line-2">   </div>
+            <div class="reviews__article-6">  <p> Божечки! Как я благодарна ребятам за качество проделанной работы!  
+        Только что полученная служебная квартира, которая наводила ужас от её состояния, один запах чего стоил - преобразилась после уборки.
+         Это как из золушки - сделали принцессу! А какой запах стал в квартире!!! Невероятной свежести! 
+         Окна, пол, стены, потолок, двери, кухня, сан узел, диван - всё сверкает!
+        Ребятам огромнейшая благодарность за работу!!! Большое человеческое спасибо!!!</p> </div>  
+    </div> 
+    </div>
+    </div>    
+      </div> 
+     
     </section>
+    
 </main>
 <footer class="footer">
   <div class="footer__container">
@@ -548,9 +558,11 @@
       <p class="footer__application-text">
         Хотите обсудить проект или не нашли на сайте нужную информацию? <br> Для
         этого просто заполните форму и мы свяжемся с вами
-        в ближайшее время.
+        в ближайшее время!
       </p>
-      <button class="footer__application-button">Оставить заявку</button>
+      <div class="footer__application-button">
+        <a href="https://vk.com/away.php?to=https%3A%2F%2Fwa.me%2Fc%2F79633506065&cc_key=">ОСТАЛИСЬ ВОПРОСЫ?</a>
+    </div>
     </div>
     <div class="footer__grid">
       <div class="footer__grid-item1">
@@ -601,12 +613,11 @@
     </div>
     <div class="footer-bottom-registration">ИНН:392002017369</div>
     <div class="footer-bottom-picts">
-      <a href="https://www.freepik.com" class="footer__bottom-link" target="_blank"
-        >Image by Freepik</a
-      >
+      <a href="https://www.freepik.com" class="footer__bottom-link" target="_blank">Image by Freepik</a>
     </div>
-  </div>
+  </div>  
 </footer>
 <script src="./assets/styles/style.js"></script>
   </body>
 </html>
+
