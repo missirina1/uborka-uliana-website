@@ -642,7 +642,7 @@ body {
 }
 
 .services__img:hover .services__img_picture {
-  transform: scale(1.15) translateY(-0.625rem); 
+  transform: scale(1.15) translateY(-0.625rem);
   filter: brightness(1) contrast(1);
   opacity: 0.95;
 }
@@ -914,7 +914,7 @@ body {
   margin: 1rem 0 0.5rem 0;
 }
 .price {
-  font-family:  font-family: "Noto Sans", sans-serif;
+  font-family: "Noto Sans", sans-serif;
   font-weight: 400;
 }
 
@@ -1066,7 +1066,7 @@ body {
   visibility: visible;
 }
 
-/*начало стилей -- Яна*/
+/* Начало блока footer */
 * {
   margin: 0;
   padding: 0;
@@ -1087,8 +1087,8 @@ body {
   font-weight: 400;
 }
 .footer__text2 {
-  font-family: "Russo One", sans-serif;
-  font-weight: 400;
+  font-family: Noto Sans, sans-serif;
+  font-weight: 900;
   font-style: normal;
   font-size: 3.5rem;
   margin-bottom: 0.5rem;
@@ -1111,16 +1111,7 @@ body {
   height: 5rem;
   border-radius: 50px;
   border-color: #3c58c1;
-  font-family: Noto Sans, sans-serif;
-  height: 5rem;
-  border-radius: 50px;
-  border-color: #3c58c1;
   background-color: #3c58c1;
-  font-size: 2rem;
-  font-size: 2rem;
-  font-weight: 700;
-  cursor: pointer;
-  padding: 1.5rem 1.5rem;
   cursor: pointer;
   padding: 1.5rem 1.5rem;
   font-size: 1.5rem;
@@ -1141,7 +1132,6 @@ body {
   box-shadow: none;
 }
 .footer__application-button a {
-  padding: 1rem;
   text-decoration: none;
   color: #ffffff;
 }
@@ -1166,47 +1156,39 @@ body {
   grid-column-end: 3;
   grid-row-start: 1;
   grid-row-end: 2;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+  gap: 1.2rem;
 }
 .footer__grid-item3 {
   grid-column-start: 3;
   grid-column-end: 4;
   grid-row-start: 1;
   grid-row-end: 2;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+  gap: 1.2rem;
 }
 .footer__grid-item4 {
   grid-column-start: 2;
   grid-column-end: 3;
   grid-row-start: 2;
   grid-row-end: 3;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+  gap: 1.2rem;
 }
 .footer__grid-item5 {
   grid-column-start: 3;
   grid-column-end: 4;
   grid-row-start: 2;
   grid-row-end: 3;
-}
-.footer__grid-item2 {
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: flex-start;
-  gap: 1.2rem;
-}
-.footer__grid-item3 {
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: flex-start;
-  gap: 1.2rem;
-}
-.footer__grid-item4 {
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: flex-start;
-  gap: 1.2rem;
-}
-.footer__grid-item5 {
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -1223,46 +1205,55 @@ body {
 }
 .footer__grid-text {
   font-size: 1.2rem;
-  font-family: "Play", sans-serif;
-  font-weight: 500;
+  font-family: Noto Sans, sans-serif;
+  font-weight: 400;
   align-self: center;
 }
 .footer__grid-phone {
   text-decoration: none;
-  font-family: "Russo One", sans-serif;
-  font-weight: 400;
+  font-family: Noto Sans, sans-serif;
+  font-weight: 900;
   font-style: normal;
   color: black;
   font-size: 1.3rem;
 }
 .footer__grid-email {
   text-decoration: none;
-  font-family: "Russo One", sans-serif;
-  font-weight: 400;
+  font-family: Noto Sans, sans-serif;
+  font-weight: 900;
   font-style: normal;
   color: black;
   font-size: 1.3rem;
 }
 .footer__grid-time {
   text-decoration: none;
-  font-family: "Russo One", sans-serif;
-  font-weight: 400;
+  font-family: Noto Sans, sans-serif;
+  font-weight: 900;
   font-style: normal;
   color: black;
   font-size: 1.3rem;
 }
 .footer__grid-address {
   text-decoration: none;
-  font-family: "Russo One", sans-serif;
-  font-weight: 400;
+  font-family: Noto Sans, sans-serif;
+  font-weight: 900;
   font-style: normal;
   color: black;
   font-size: 1.3rem;
+}
+.footer__grid-address:hover {
+  cursor: pointer;
+  color: white;
+  -webkit-text-shadow: 2px 2px 2px #000;
+  -moz-text-shadow: 2px 2px 2px #000;
+  text-shadow: 2px 2px 2px #000;
 }
 .footer__bottom-link {
   text-decoration: none;
   color: black;
   color: #dadce2;
+  font-family: Noto Sans, sans-serif;
+  font-weight: 900;
 }
 .footer__bottom {
   display: flex;
@@ -1271,7 +1262,7 @@ body {
   background-color: #3c58c1;
   color: #dadce2;
   align-items: center;
-  font-family: "Play", sans-serif;
+  font-family: Noto Sans, sans-serif;
   font-weight: 700;
   font-size: 1.1rem;
 }
@@ -1281,3 +1272,13 @@ body {
   border-radius: 40px;
   box-shadow: 2px 2px 4px rgba(61, 105, 16, 0.5);
 }
+.footer-bottom-copyright {
+  font-family: Noto Sans, sans-serif;
+  font-weight: 900;
+}
+.footer-bottom-registration {
+  font-family: Noto Sans, sans-serif;
+  font-weight: 900;
+}
+
+/* Конец блока footer */
