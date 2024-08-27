@@ -467,6 +467,11 @@
   }
 }
 
+@media (max-width: 600px) {
+  .description__title {
+    font-size: 2.2rem;}
+}
+
 @media (max-width: 637px) {
   .company__description-1 {
     flex-wrap: wrap;
@@ -489,7 +494,7 @@
     width: 18.75rem;
 }
 .description__title {
-  font-size: 2rem;
+  font-size: 1.8rem;
   text-align: center;
 }
 .description__subtitle {
@@ -509,6 +514,9 @@
 @media (max-width: 936px) {
   .reviews__article-0 {
     display: none;}
+  .reviews__title-01{
+   font-size: 3rem;
+    }
   }
 @media (max-width: 750px) {
 .reviews__section-one {
@@ -518,13 +526,16 @@
 }
 .reviews__title-01{
   padding-bottom: 0.063rem;
-  font-size: 3rem;
+  font-size: 2.5rem;
 }
 .reviews__article-1 {
   line-height: 1.5rem;}
 }
 
 @media (max-width: 570px) {
+  .reviews__title-01{
+    font-size: 2.3rem;
+  }
   .review__first-text-1 {
     flex-direction: column;
   }
@@ -550,13 +561,19 @@
   
 @media (max-width: 500px) {
   .reviews__title-01{
-    font-size: 2.5rem;
+    font-size: 2.2rem;
     line-height: 2.2rem;
   }
   .review__first-text {
     margin-bottom: 0rem;
   }
   .review__photo {display: none;}
+}
+@media (max-width: 449px) {
+  .reviews__title-01{
+    font-size: 1.7rem;
+
+  }
 }
   /* Конец адаптива для блока reviews - yuliya*/
 
