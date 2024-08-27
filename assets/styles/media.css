@@ -382,7 +382,7 @@
   }
 
   .services__img:hover .services__img_picture {
-    transform: scale(1.01) translateY(-10px); /* Увеличение и легкое перемещение вверх */
+    transform: scale(1.01) translateY(-10px);
   }
 }
 

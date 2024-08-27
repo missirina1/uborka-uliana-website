@@ -642,9 +642,9 @@ body {
 }
 
 .services__img:hover .services__img_picture {
-  transform: scale(1.15) translateY(-0.625rem); /* Увеличение и легкое перемещение вверх */
-  filter: brightness(1) contrast(1); /* Увеличиваем яркость и контраст */
-  opacity: 0.95; /* Немного затемняет изображение */
+  transform: scale(1.15) translateY(-0.625rem); 
+  filter: brightness(1) contrast(1);
+  opacity: 0.95;
 }
 .services__circle {
   width: 6.25rem;
@@ -1065,7 +1065,7 @@ body {
   opacity: 1;
   visibility: visible;
 }
-/* конец стилей - Айтаж */
+
 /*начало стилей -- Яна*/
 * {
   margin: 0;
