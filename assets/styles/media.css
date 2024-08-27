@@ -301,7 +301,7 @@
     padding: 0.5rem 1.5rem;
   }
 }
-/* Адаптив - ирина */
+/* Services */
 @media (max-width: 1000px) {
   .services__title {
     margin: 0 0 2.1875rem 0;
@@ -320,6 +320,25 @@
   }
   .services__popups {
     width: 65%;
+  }
+}
+@media (max-width: 1035px) {
+  .services__title {
+    font-weight: 500;
+  }
+
+  .services__price_ot {
+    font-weight: 600;
+    font-size: 1.1rem;
+  }
+  .services__price_cost {
+    font-size: 1.2rem;
+    font-weight: 600;
+  }
+  .services__subtitle {
+    font-size: 1.1rem;
+    font-family: "Noto Sans", sans-serif;
+    font-weight: 850;
   }
 }
 @media (max-width: 768px) {
@@ -346,6 +365,11 @@
     width: auto;
     margin: 0.5rem 0 0 0;
   }
+  .services__subtitle {
+    font-size: 1rem;
+    font-family: "Noto Sans", sans-serif;
+    font-weight: 800;
+  }
   .services__img {
     width: auto;
   }
@@ -362,9 +386,7 @@
   }
 }
 
-/* Конец адаптива - Ирина */
-
-/* Адаптип - Айтаж */
+/* Offer*/
 
 @media (max-width: 835px) {
   .box__popup {

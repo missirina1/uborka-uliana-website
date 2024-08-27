@@ -586,8 +586,8 @@ body {
   padding-right: 0.938rem;
 }
 /* Конец блока reviews - yuliya*/
-/* 
-Начало стилей - Ирина */
+
+/* services */
 
 .services {
   box-sizing: border-box;
@@ -878,7 +878,7 @@ body {
 
 /*Конец стилей Анна Д.*/
 
-/* Стили - айтаж */
+/* Offer */
 .offer {
   padding: 4rem 1.5rem 4rem 01.5rem;
 }
@@ -914,7 +914,8 @@ body {
   margin: 1rem 0 0.5rem 0;
 }
 .price {
-  font-family: "Play";
+  font-family:  font-family: "Noto Sans", sans-serif;
+  font-weight: 400;
 }
 
 .box1 {
