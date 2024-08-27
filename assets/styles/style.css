@@ -197,7 +197,7 @@ body {
   border: 2px solid #3c58c1;
 }
 
-/* Начало блока description - yuliya*/
+/* Начало стилей для блока description - yuliya*/
 .company__description {
   width: 100%;
   max-width: 96.875rem;
@@ -253,10 +253,10 @@ body {
 }
 
 .company__description__part-two {
-  width: 65%;
+  width: 70%;
   position: relative;
   display: flex;
-  margin-left: 1.25rem;
+  margin-left: 3rem;
   align-items: flex-start;
   flex-direction: column;
 }
@@ -346,7 +346,7 @@ body {
 }
 
 .description__part-two {
-  width: 47%;
+  width: 55%;
   position: relative;
   display: inline-block;
   margin-left: 1.875rem;
@@ -375,9 +375,9 @@ body {
     font-weight: 400;
     font-family: "Noto Sans", sans-serif;
 }
-/* Конец блока description - yuliya*/
+/* Конец стилей для блока description - yuliya*/
 
-/* Начало блока reviews - yuliya*/
+/* Начало стилей для блока reviews - yuliya*/
 .reviews {
   width: 100%;
   max-width: 96.875rem;
@@ -397,6 +397,7 @@ body {
   display: flex;
   flex-direction: column;
   align-items: flex-start;
+  padding-left:  0.938rem;
 }
 
 .reviews__section-one-1 {
@@ -422,7 +423,7 @@ body {
 }
 
 .reviews__title{
-  line-height: 4vw;
+  line-height: 4rem;
   margin-top: 0px;
   margin-right: 0rem;
   margin-bottom: 0rem;
@@ -432,10 +433,11 @@ body {
   }
 
 .reviews__title-01{
-  font-size: 4.8rem;
   font-family: "Noto Sans", sans-serif;
-  font-weight: 900; 
   padding-bottom: 1.25rem;
+  font-weight: 900;
+  font-style: normal;
+  font-size: 3.5rem;
 }
 
 .reviews__all {
@@ -471,6 +473,7 @@ body {
   justify-content: flex-start;
   align-items: flex-start;
   align-items: center;
+  padding: 0.938rem 0.938rem 0.938rem 0.938rem;
 }
 
 .review__photo {
@@ -510,10 +513,9 @@ body {
 }
 
 .reviews__article-3{
-  display: flex;padding-top: 10px;
-   padding-top: 10px;
-   font-family:"Noto Sans", sans-serif;
-   font-weight: 400;
+  display: flex;
+  font-family:"Noto Sans", sans-serif;
+  font-weight: 400;
 }
 
 .reviews__article-line-1 {
@@ -556,6 +558,7 @@ body {
   justify-content: flex-start;
   align-items: flex-start;
   align-items: center;
+  padding: 0.938rem 0.938rem 0.938rem 0.938rem;
 }
 
 .reviews__articles_2 {
@@ -584,7 +587,7 @@ body {
  font-weight: 400;
   padding-right: 0.938rem;
 }
-/* Конец блока reviews - yuliya*/
+/* Конец стилей для блока reviews - yuliya*/
 /* 
 Начало стилей - Ирина */
 
