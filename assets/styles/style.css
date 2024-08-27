@@ -807,7 +807,7 @@ body {
 .services__span {
   color: #3c58c1;
 }
-/*Начало стилей Анна Д.*/
+/*Начало стилей Application */
 
 .application {
   display: flex;
@@ -821,7 +821,7 @@ body {
   margin-top: 6rem;
 }
 .application__form {
-  width: 60%;
+  width: 50%;
   padding: 3rem;
   margin: 6rem 1.5rem 6rem 0px;
   display: flex;
@@ -834,9 +834,6 @@ body {
   font-size: 1.75rem;
   color: black;
   gap: 1rem;
-}
-.application__form:hover {
-  transform: scale(1.05) translateX(-1rem);
 }
 .application__form h2 {
   font-size: 4rem;
@@ -877,7 +874,7 @@ body {
   color: #ffffff;
 }
 
-/*Конец стилей Анна Д.*/
+/*Конец стилей Application*/
 
 /* Offer */
 .offer {
