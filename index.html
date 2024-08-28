@@ -59,14 +59,16 @@
       </div>
       <div class="banner-socio">
         <div class="contacts__circle">
-          <img src="./assets/images/iconizer-вк.svg" alt="VK" class="contacts__img_icon"/>
+          <a href="https://vk.com/uborka_ulyana" target="_blank"><img src="./assets/images/iconizer-вк.svg" alt="VK" class="contacts__img_icon"/></a>
         </div>
         <div class="contacts__circle">
-          <img src="./assets/images/iconizer-whatsap.svg" alt="What'App" class="contacts__img_icon"/>
+          <a href="https://wa.me/79633506065" target="_blank"><img src="./assets/images/iconizer-whatsap.svg" alt="What'App" class="contacts__img_icon"/></a>
         </div>
       </div>
       <div class="header__button">
-        <button><a href="https://wa.me/79633506065">ОСТАВИТЬ ЗАЯВКУ</a></button>
+        <div class="header__form-button">
+          <a href="https://wa.me/79633506065" target="_blank">ОСТАВИТЬ ЗАЯВКУ</a>
+        </div>
         <div class="banner-contacts">
           <span class="text__two text_thin">Звоните нам:</span>
           <span class="text__two text_bold">+7 (963) 350-60-65</span>
@@ -92,7 +94,6 @@
        </div>   
       <div class="description__article-1"> <h2 class="description__title">Немного о компании:</h2>  </div>    
     </div>
-  
       <div class="description__part-one">
         <div class="company__icon-two"> 
           <div class="icon-two"> 
@@ -110,21 +111,24 @@
 </div>
 </section>
  <!-- Конец блока "описание компании"  -->
+
+<!-- Начало блока Услуги компании -->
     <section class="services">
       <h2 class="services__title">Услуги компании</h2>
+      <div class="services__box-card">
       <div class="services__block">
         <div class="services__card">
           <div class="services__img">
             <div class="services__circle">
               <img
                 src="./assets/services/services__icon/services__icon1.svg"
-                alt="icon1"
+                alt=""
                 class="services__img_icon"
               />
             </div>
             <img
               src="./assets/services/services__picture/services__picture_1.jpg"
-              alt="picture_1"
+              alt="Удаление загрезнений"
               class="services__img_picture"
             />
           </div>
@@ -134,7 +138,6 @@
               Очистка всех поверхностей, удаление загрязнений, дезинфекция
               помещений.
             </p>
-
             <div class="services__footer">
               <div class="services__price">
                 <span class="services__price_ot">От</span>
@@ -144,15 +147,13 @@
               <button class="services__btn" data-popup="popup1">
                 <img
                   src="./assets/services/services__icon/services__btn_black.png"
-                  alt="иконка услуги генеральной уборки"
+                  alt="Стрелка для перехода описания услуги Генеральная уборка"
                 />
-                 
               </button>
-              <div class="services__popup-overlay"id="popup1">
+              <div class="services__popup-overlay" id="popup1">
                 <div class="services__popups" >
-                    <h2>   Генеральная уборка включает:</h2>
-                    <ul>
-                        <li><h3>Кухня</h3>
+                    <h2>Генеральная уборка включает:</h2>
+                        <h3>Кухня:</h3>
                              <ul>
                             <li>очистка плиты, духового
                                 шкафа и дверцы</li>
@@ -162,8 +163,7 @@
                                     <li>очистка под кухней</li>
                                     <li>продувка вытяжки</li>
                         </ul>
-                        </li>
-                        <li>   <h3>Ванная: </h3>
+                          <h3>Ванная: </h3>
                             <ul>
                                 <li>плитки и сантехники
                                 </li>
@@ -171,30 +171,22 @@
                                 <li>удаление налета и
                                     ржавчины</li>
                             </ul>
-                        </li>
-                        <li> <h3>Общее:</h3>
+                         <h3>Общее:</h3>
                             <ul>
                                 <li>удаление пыли со стен, потолков, мебели
                                 </li>
                                 <li>мойка и полировка поверхностей </li>
                                 <li>продувка батарей, чистка
                                     розеток, вентиляции и полов</li>
-                                   
                             </ul>
-                        </li>
                         <p>
                         Мойка окон и доп. работы
                     оплачиваются отдельно. <span class="services__span">Минимум заказа — 3000 ₽.</span>
                     </p>
                     <p>Окончательная стоимость после осмотра.</p>
-                    </ul>
-     
-                 
-                
                 </div>
             </div>
             </div>
-            
           </div>
         </div>
         <div class="services__card">
@@ -202,13 +194,13 @@
             <div class="services__circle">
               <img
                 src="./assets/services/services__icon/services__icon3.svg"
-                alt="icon3"
+                alt=""
                 class="services__img_icon"
               />
             </div>
             <img
               src="./assets/services/services__picture/services__picture_2.avif"
-              alt="picture_2"
+              alt="Очистка поверхности от следов грязи"
               class="services__img_picture"
             />
           </div>
@@ -218,7 +210,6 @@
               Удаление строительной пыли, мусора, очистка поверхностей от
               остатков краски, следов клея и грязи.
             </p>
-
             <div class="services__footer">
               <div class="services__price">
                 <span class="services__price_ot">От</span>
@@ -228,15 +219,12 @@
               <button class="services__btn" data-popup="popup2">
                 <img
                   src="./assets/services/services__icon/services__btn_black.png"
-                  alt="иконка услуги - уборка после ремонта"
-                />
-               
+                  alt="Стрелка для перехода описания услуги Уборка после ремонта"
+                />             
         </button>
         <div class="services__popup-overlay" id="popup2">
-            <div class="services__popups" >
-          
-            <h2>Послестроительная уборка включает:</h2>
-           
+            <div class="services__popups" >         
+            <h2>Послестроительная уборка включает:</h2>          
              <ul>
                 <li>сбор крупного мусора</li>
                 <li>удаление строительной пыли</li>
@@ -248,35 +236,32 @@
                     дверей, пола, стен, стеклянных поверхностей, плитки и швов</li>
                     <li>дезинфекция санузлов</li>
                     <li>чистка радиаторов и вентиляции</li>
-             </ul>
+            </ul>
             <p>Мойка
             окон и доп. работы оплачиваются <span class="services__span">отдельно.</span>  Окончательная
             стоимость после осмотра.</p>
         </div>
     </div>
-
       </div>
           </div>
             </div>
-        </div>
-      </div>
+        </div> 
       <div class="services__block">
         <div class="services__card">
           <div class="services__img">
             <div class="services__circle">
               <img
                 src="./assets/services/services__icon/services__icon2.svg"
-                alt="icon2"
+                alt=""
                 class="services__img_icon"
               />
             </div>
             <img
               src="./assets/services/services__picture/services__picture_3.jpg"
-              alt="picture_3"
+              alt="Очищение поверхностей от пыли"
               class="services__img_picture"
             />
           </div>
-
           <div class="services__info">
             <h2 class="services__subtitle">
               Уборка до/после переезда (подготовка к продаже)
@@ -285,7 +270,6 @@
               Подготовка помещения к переезду: комплексная уборка, устранение
               загрязнений, придание свежести и чистоты.
             </p>
-
             <div class="services__footer">
               <div class="services__price">
                 <span class="services__price_ot">От</span>
@@ -295,20 +279,19 @@
               <button class="services__btn" data-popup="popup3">
                 <img
                   src="./assets/services/services__icon/services__btn_black.png"
-                  alt="иконка услуги - уборка до/после переезда"
-                />
-                
+                  alt="Стрелка для перехода описания услуги Уборка до/после переезда"
+                />                
         </button>
         <div class="services__popup-overlay" id="popup3">
             <div class="services__popups" >
           <h2>Уборка до/после переезда (подготовка к продаже)</h2>
           <p>
             Эта услуга выполняется после вывоза мебели, когда помещение
-            остается пустым..</p> <p>Мы оцениваем состояние объекта и определяем
+            остается пустым.</p> 
+            <p>Мы оцениваем состояние объекта и определяем
             необходимый формат уборки. Часто после освобождения
             пространства обнаруживаются скрытые дефекты: загрязнения
             стен, изношенные покрытия и другие.</p>
-            
             <p>Формат уборки уточняется
             после осмотра. Уборка после переезда похожа на генеральную,
             но без мойки окон
@@ -316,8 +299,7 @@
             отдельно). </p>
               <span class="services__span"> Минимальная сумма заказа —15 000 ₽.</span>
              <p>
-            Окончательная стоимость определяется после осмотра объекта.</p>
-         
+            Окончательная стоимость определяется после осмотра объекта.</p>        
         </div>
     </div>
       </div>
@@ -328,13 +310,13 @@
             <div class="services__circle">
               <img
                 src="./assets/services/services__icon/services__icon4.svg"
-                alt="иконка услуги - уборка коммерческих помещений"
+                alt=""
                 class="services__img_icon"
               />
             </div>
             <img
               src="./assets/services/services__picture/services__picture_4.jpg"
-              alt="picture_4"
+              alt="Уборка офисных пространств"
               class="services__img_picture"
             />
           </div>
@@ -344,7 +326,6 @@
               Комплексная уборка офисов и бизнес-пространств, поддержание
               презентабельного вида.
             </p>
-
             <div class="services__footer">
               <div class="services__price">
                 <span class="services__price_ot">От</span>
@@ -354,15 +335,13 @@
               <button class="services__btn" data-popup="popup4">
                 <img
                   src="./assets/services/services__icon/services__btn_black.png"
-                  alt="icon_black4"
-                />
-                
+                  alt="Стрелка для перехода описания услуги Уборка коммерческих помещений"
+                />               
         </button>
         <div class="services__popup-overlay" id="popup4">
             <div class="services__popups" >
 <h2>Уборка коммерческих помещений</h2>
-<p>
-            Мы работаем с<span class="services__span"> ЛЮБЫМИ</span>  типами коммерческих помещений.
+<p>Мы работаем с<span class="services__span"> ЛЮБЫМИ</span>  типами коммерческих помещений.
           </p>
            <p>Стоимость зависит от степени загрязнений и объема
             услуг,рассчитывается из фактического метража по полу.
@@ -374,34 +353,31 @@
             <p>Перечень
             услуг и график их выполняемых работ составляются
             индивидуально.
-          </p>
-          
-      
+          </p>     
     </div>
       </div>
           </div>
         </div>
       </div>
- 
+    </div>
+  </div>
     </section>
-         <!-- код - Айтаж  -->
-          <section>
-    <div class="offer">
+    <!-- Конец блока Услуги компании -->
+         <!-- Начало блока Наши специальные предложения  -->
+          <section class="offer">
     <div>
         <p class="title2">Наши специальные предложения!</p>
     </div>
     <div>
-  
         <h5 class="title">Мы предлагаем:</h5>
     </div>
     <div class="box">
         <div class="box1">
             <div class="rect"><div class="circle"><img src="assets/images/iconizer-window_rgmgt8xakw0e.svg" alt="" class="icon"></div></div>
             <div><p class="title3">Мытье окон</p></div>
-            <div><p class="price">от 700 руб./от 900 руб.</p>
+            <div><p class="price">от 700 ₽</p>
                 <p class="script"></p></div> 
                 <div class="box__popup">
-  
                  <ul>
                   <li>Чистка профилей, пазов и рам</li>
                   <li>Мытье стекол с обеих сторон</li>
@@ -409,13 +385,12 @@
                   <li>Уборка межрамного пространства</li>
                  </ul>
                  <ul>
-                  <li>Сезонное мытье стандартных окон — <span class="services__span"> от 700 руб/створка</span>.;</li>
-                  <li>После ремонта —<span class="services__span">  от 900 руб./створка.</span> </li>
-                  <li>Удаление пленки — рассчитывается отдельно.</li>
+                  <li>Сезонное мытье стандартных окон — <span class="services__span"> от 700 руб/створка</span></li>
+                  <li>После ремонта —<span class="services__span">  от 900 руб./створка</span> </li>
+                  <li>Удаление пленки — рассчитывается отдельно</li>
                  </ul>
                 </div>
         </div>
-
         <div class="box2">
             <div class="rect"><div class="circle"><img src="assets/images/iconizer-house-svgrepo-com (1).svg" alt="" class="icon"></div></div>
             <div><p class="title3">Мойка фасадов</p></div>
@@ -427,9 +402,8 @@
                   </p>
                   <ul> <li>Подготовка: убираем мешающие предметы</li>
                   <li>Очистка фасада от грязи и пыли</li>
-                  <li>Мойка с применением специализированной химии.</li></ul>
-  
-                  <p>Смыв осуществляется водой под высоким давлением. Время работ: <span class="services__span">от 2-5 часов</span>  для небольших объектов, до нескольких дней для крупных.</p>
+                  <li>Мойка с применением специализированной химии</li></ul>
+                  <p>Смыв осуществляется водой под высоким давлением. Время работ: <span class="services__span">от 2-5 часов</span>  для небольших объектов, до нескольких дней для крупных</p>
                  </div>
         </div>
         <div class="box3">
@@ -445,9 +419,8 @@
                   <li>Чистку роторной машиной</li>
                   <li>Удаление остатков жидкости</li>
                 <li>Влагопоглощение</li>
-                <li>Нанесение финишного покрытия.</li></ul>
-  
-                  <p> Время работ:  <span class="services__span">от 2-5 часов</span>  для небольших объектов, до нескольких дней для крупных.</p>
+                <li>Нанесение финишного покрытия</li></ul> 
+                  <p> Время работ:<span class="services__span"> от 2-5 часов</span> для небольших объектов, до нескольких дней для крупных.</p>
                  </div>
         </div>
         <div class="box4">
@@ -459,35 +432,35 @@
         <div class="box5">
             <div class="rect"><div class="circle"><img src="assets/images/iconizer-home-with-a-tree-at-side-svgrepo-com.svg" alt="" class="icon2"></div></div>
             <div><p class="title3">Уборка придомовой территории</p></div>
-            <div><p class="price">от 5000₽</p>
+            <div><p class="price">от 5000 ₽</p>
                 <p class="script"></p></div>
         </div>
     </div>
   </div>
   </section>
-    <!--Block Anna D.-->
+  <!-- Конец блока - Наши специальные предложения -->
+    <!--Начало блока - Заявка-->
     <section class="application">
         <div class="application__form">
             <h2>Заявка ON-line</h2>
             <p>Делаем работу качественно, в срок, уже более 100 довольных клиентов, которые возвращаются и рекомендуют знакомым!</p>
             <p>Связаться с нами:</p>
             <div class="application__form-button">
-                <a href="https://wa.me/79633506065">ОСТАВИТЬ ЗАЯВКУ</a>
+                <a href="https://wa.me/79633506065" target="_blank">ОСТАВИТЬ ЗАЯВКУ</a>
             </div>
         </div>
     </section>
-    <!-- Начало блока "отзывы"  -->
+      <!--Конец блока - Заявка-->
+    <!-- Начало блока - Отзывы  -->
     <section class="reviews">
-      <div class="reviews__section">
-    
+      <div class="reviews__section">  
         <div class="reviews__section-one">
           <div class="reviews__section-one-1"> 
           <div class="reviews__article-0"> </div>   
           <div class="reviews__article-1"> Мы будем искренне рады, если в нашем лице Вы найдете достойного партнера.  Мы ценим каждого из Вас!   </div>
            </div>      
           <div class="reviews__title"> <h2 class="reviews__title-01">Отзывы о нас:</h2> </div>   
-      </div>
-    
+      </div>  
        <div class="reviews__all">
       <div class="review__first">   
         <div class="review__first-text">
@@ -503,8 +476,7 @@
       </div> 
     </div>
     </div>
-    </div>
-    
+    </div>    
     <div class="review__second">   
       <div class="review__second-text">
         <div class="review__first-text-2">
@@ -524,12 +496,22 @@
       </div>
     </div>
     </section>
-    <!-- Конец блока "отзывы" -->
+    <!-- Конец блока - Отзывы -->
 </main>
 <footer class="footer">
   <div class="footer__container">
     <p class="footer__text1">Свяжитесь с нами удобным для Вас способом!</p>
     <h2 class="footer__text2">Наши контакты:</h2>
+    <!--Адаптив для middle screen - начало-->
+    <p class="footer__application-text-middle">
+      Хотите обсудить проект или не нашли на сайте нужную информацию? <br> Для
+      этого просто заполните форму и мы свяжемся с вами
+      в ближайшее время!
+    </p>
+    <div class="footer__application-button-middle">
+      <a href="https://wa.me/79633506065" target="_blank" class="footer__application-link-middle">ОСТАЛИСЬ ВОПРОСЫ?</a>
+  </div>
+  <!--Адаптив для middle screen - конец-->
     <div class="footer__application">
       <p class="footer__application-text">
         Хотите обсудить проект или не нашли на сайте нужную информацию? <br> Для
@@ -555,37 +537,70 @@
       </div>
       <div class="footer__grid-item2">
         <div class="footer__grid-icon">
-          <img src="./assets/footer_img/iconizer-iconizer-телефон.svg" alt="Phone icon" class="footer__img">
+          <img src="./assets/footer_img/iconizer-iconizer-телефон.svg" alt="Иконка телефона на синем фоне." class="footer__img">
           <p class="footer__grid-text">Звонить по номеру:</p>
         </div>
         <div class="footer__grid-phone">+7 (963) 350-60-65</div>
       </div>
       <div class="footer__grid-item3">
         <div class="footer__grid-icon">
-          <img src="./assets/footer_img/iconizer-iconizer-почта.svg" alt="Email icon" class="footer__img" >
+          <img src="./assets/footer_img/iconizer-iconizer-почта.svg" alt="Иконка конверта на синем фоне." class="footer__img" >
         <p class="footer__grid-text">Электронная почта:</p>
         </div>
         <div class="footer__grid-email">jujana51206@mail.ru</div>
       </div>
       <div class="footer__grid-item4">
         <div class="footer__grid-icon">
-          <img src="./assets/footer_img/iconizer-iconizer-часы.svg" alt="Watches icon" class="footer__img">
+          <img src="./assets/footer_img/iconizer-iconizer-часы.svg" alt="Иконка часов на синем фоне." class="footer__img">
         <p class="footer__grid-text">Наше время работы:</p>
         </div>
         <p class="footer__grid-time">Пн. - Сб.: 9:00 - 19:00</p>
       </div>
       <div class="footer__grid-item5">
         <div class="footer__grid-icon">
-          <img src="./assets/footer_img/iconizer-iconizer-вк.svg" alt="VK icon" class="footer__img">
+          <img src="./assets/footer_img/iconizer-iconizer-вк.svg" alt="Иконка логотипа VK на синем фоне." class="footer__img">
         <p class="footer__grid-text">Наша группа в VK:</p>
       </div>
-        <a href="https://vk.com/uborka_ulyana" class="footer__grid-address" target='_blank'>Уборка от Ульяны</a>
+        <a href="https://vk.com/uborka_ulyana" class="footer__grid-address" target='_blank'>УБОРКА от Ульяны</a>
       </div>
     </div>
   </div>
+  <!--Адаптив для mobile version - начало-->
+  <div class="footer__container-small">
+    <p class="footer__text1-small">Свяжитесь с нами удобным для Вас способом!</p>
+    <h2 class="footer__text2-small">Наши контакты:</h2>
+  </div>
+  <div class="footer__application-button-small">
+    <a href="https://wa.me/79633506065" target="_blank" class="footer__application-link">ОСТАЛИСЬ ВОПРОСЫ?</a>
+</div>
+  <div class="footer__grid-item2-small">
+    <div class="footer__grid-icon-small">
+      <img src="./assets/footer_img/iconizer-iconizer-телефон.svg" alt="Иконка телефона на синем фоне." class="footer__img-small">
+    </div>
+    <div class="footer__grid-phone-small">+7 (963) 350-60-65</div>
+  </div>
+  <div class="footer__grid-item3-small">
+    <div class="footer__grid-icon-small">
+      <img src="./assets/footer_img/iconizer-iconizer-почта.svg" alt="Иконка конверта на синем фоне." class="footer__img-small" >
+    </div>
+    <div class="footer__grid-email-small">jujana51206@mail.ru</div>
+  </div>
+  <div class="footer__grid-item4-small">
+    <div class="footer__grid-icon-small">
+      <img src="./assets/footer_img/iconizer-iconizer-часы.svg" alt="Иконка часов на синем фоне." class="footer__img-small">
+    </div>
+    <p class="footer__grid-time-small">Пн. - Сб.: 9:00 - 19:00</p>
+  </div>
+  <div class="footer__grid-item5-small">
+    <div class="footer__grid-icon-small">
+      <img src="./assets/footer_img/iconizer-iconizer-вк.svg" alt="Иконка логотипа VK на синем фоне." class="footer__img-small">
+  </div>
+    <a href="https://vk.com/uborka_ulyana" class="footer__grid-address-small" target='_blank'>УБОРКА от Ульяны</a>
+  </div>
+<!--Адаптив для mobile version - конец-->
   <div class="footer__bottom">
     <div class="footer-bottom-copyright">
-      Copyright © 2024 "УБОРКА ОТ УЛЬЯНЫ"
+      Copyright © 2024 "УБОРКА от Ульяны"
     </div>
     <div class="footer-bottom-registration">ИНН:392002017369</div>
     <div class="footer-bottom-picts">
@@ -596,3 +611,5 @@
 <script src="./assets/styles/style.js"></script>
   </body>
 </html>
+
+
