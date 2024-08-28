@@ -3,11 +3,9 @@ body {
   font-weight: 400;
   font-style: normal;
 }
-
 .header {
   background-color: rgba(184, 223, 243, 0.6);
 }
-
 .header__logo {
   box-shadow: rgb(60 88 193) 1px 1px 2px 1px;
   background-color: white;
@@ -197,7 +195,7 @@ body {
   border: 2px solid #3c58c1;
 }
 
-/* Начало стилей для блока description - yuliya*/
+/* Начало блока - О компании*/
 .company__description {
   width: 100%;
   max-width: 96.875rem;
@@ -375,9 +373,9 @@ body {
   font-weight: 400;
   font-family: "Noto Sans", sans-serif;
 }
-/* Конец стилей для блока description - yuliya*/
+/* Конец блока - О компании */
 
-/* Начало стилей для блока reviews - yuliya*/
+/* Начало блока - Отзывы*/
 .reviews {
   width: 100%;
   max-width: 96.875rem;
@@ -586,9 +584,9 @@ body {
   font-weight: 400;
   padding-right: 0.938rem;
 }
-/* Конец стилей для блока reviews - yuliya*/
+/*Конец блока - Отзывы*/
 
-/* services */
+/* Начало блока - Услуги компании */
 
 .services {
   box-sizing: border-box;
@@ -807,7 +805,9 @@ body {
 .services__span {
   color: #3c58c1;
 }
-/*Начало стилей Application */
+/* Конец блока - Услуги компании */
+
+/*Начало блока - Заявка */
 
 .application {
   display: flex;
@@ -873,9 +873,9 @@ body {
   color: #ffffff;
 }
 
-/*Конец стилей Application*/
+/*Конец блока - Заявка */
 
-/* Offer */
+/*Начало блока - Наши специальные предложения */
 .offer {
   padding: 4rem 1.5rem 12rem 01.5rem;
   background-color: rgba(184, 223, 243, 0.6);
@@ -927,7 +927,7 @@ body {
 }
 
 .box1:hover {
-  transform: scale(1.05) translateY(-10px); /* Увеличение и легкое перемещение вверх */
+  transform: scale(1.05) translateY(-10px);
   transition-delay: 0.1s;
   transition: transform 0.7s cubic-bezier(0.42, 0, 0.58, 1),
     filter 0.7s cubic-bezier(0.42, 0, 0.58, 1),
@@ -944,7 +944,7 @@ body {
   box-shadow: rgb(60 88 193) 0px 2px 5px 2px;
 }
 .box2:hover {
-  transform: scale(1.05) translateY(-10px); /* Увеличение и легкое перемещение вверх */
+  transform: scale(1.05) translateY(-10px);
   transition-delay: 0.1s;
   transition: transform 0.7s cubic-bezier(0.42, 0, 0.58, 1),
     filter 0.7s cubic-bezier(0.42, 0, 0.58, 1),
@@ -961,7 +961,7 @@ body {
   box-shadow: rgb(60 88 193) 0px 2px 5px 2px;
 }
 .box3:hover {
-  transform: scale(1.05) translateY(-10px); /* Увеличение и легкое перемещение вверх */
+  transform: scale(1.05) translateY(-10px);
   transition-delay: 0.1s;
   transition: transform 0.7s cubic-bezier(0.42, 0, 0.58, 1),
     filter 0.7s cubic-bezier(0.42, 0, 0.58, 1),
@@ -977,7 +977,7 @@ body {
   box-shadow: rgb(60 88 193) 0px 2px 5px 2px;
 }
 .box4:hover {
-  transform: scale(1.05) translateY(-10px); /* Увеличение и легкое перемещение вверх */
+  transform: scale(1.05) translateY(-10px);
   transition-delay: 0.1s;
   transition: transform 0.7s cubic-bezier(0.42, 0, 0.58, 1),
     filter 0.7s cubic-bezier(0.42, 0, 0.58, 1),
@@ -995,7 +995,7 @@ body {
   box-shadow: rgb(60 88 193) 0px 2px 5px 2px;
 }
 .box5:hover {
-  transform: scale(1.05) translateY(-10px); /* Увеличение и легкое перемещение вверх */
+  transform: scale(1.05) translateY(-10px);
   transition-delay: 0.1s;
   transition: transform 0.7s cubic-bezier(0.42, 0, 0.58, 1),
     filter 0.7s cubic-bezier(0.42, 0, 0.58, 1),
@@ -1063,6 +1063,7 @@ body {
   opacity: 1;
   visibility: visible;
 }
+/*Конец блока - Наши специальные предложения */
 
 /* Начало блока footer */
 * {

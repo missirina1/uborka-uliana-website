@@ -3,10 +3,6 @@
   .header-info {
     padding: 0.8rem 2rem 0.7rem 2rem;
   }
-  /* .header__logo {
-    width: none;
-    height: none;
-  } */
   .text_bold {
     letter-spacing: 0;
     font-weight: 800;
@@ -66,7 +62,7 @@
   }
   /* Header */
 
-  /* Application */
+  /* Начало блока - Заявка */
   .application {
     margin-top: 0rem;
   }
@@ -76,6 +72,8 @@
     margin: 1rem;
   }
 }
+/* Продолжение ниже */
+
 @media (max-width: 767px) and (min-width: 375px) {
   /* Header */
   .header-info {
@@ -133,7 +131,7 @@
   }
   /* Header */
 
-  /* Application */
+  /*Начало блока - Заявка */
   .application {
     margin-top: 0rem;
   }
@@ -154,7 +152,7 @@
     height: 4rem;
     padding: 0.7rem 1.5rem;
   }
-  /* Application */
+  /* Продолжение */
 }
 
 @media (min-width: 450px) and (max-width: 600px) {
@@ -184,7 +182,7 @@
   .banner-socio {
     margin-right: 2rem;
   }
-  /* Application */
+  /* Начало блока - Заявка */
   .application__form h2 {
     font-size: 2rem;
   }
@@ -199,7 +197,7 @@
     height: 3rem;
     padding: 0.5rem 1.5rem;
   }
-  /* Application */
+  /* Продолжение ниже  */
 }
 
 @media (max-width: 450px) {
@@ -297,7 +295,7 @@
   }
   /* Header */
 
-  /* Application */
+  /* Начало блока - Заявка */
   .application__form h2 {
     font-size: 1.5rem;
   }
@@ -312,9 +310,9 @@
     height: 3rem;
     padding: 0.5rem 1.5rem;
   }
-  /* Application */
+  /* Конец блока - Заявка */
 }
-/* Адаптив - ирина */
+/* Начало блока - Услуги компании */
 @media (max-width: 1000px) {
   .services__title {
     margin: 0 0 2.1875rem 0;
@@ -402,8 +400,9 @@
     transform: scale(1.01) translateY(-10px);
   }
 }
+/* Конец блока - Услуги компании */
 
-/* Offer*/
+/* Начало блока - Наши специальные предложения */
 
 @media (max-width: 835px) {
   .box__popup {
@@ -434,6 +433,8 @@
     }
   }
 }
+/* Конец блока - Наши специальные предложения */
+
 /* Начало адаптива для блока description - yuliya*/
 @media (max-width: 1135px) {
   .company__icon-one {
