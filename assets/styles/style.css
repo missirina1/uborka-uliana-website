@@ -818,7 +818,6 @@ body {
   background-size: cover;
   width: 100%;
   height: auto;
-  margin-top: 6rem;
 }
 .application__form {
   width: 60%;
@@ -881,7 +880,8 @@ body {
 
 /* Offer */
 .offer {
-  padding: 4rem 1.5rem 4rem 01.5rem;
+  padding: 4rem 1.5rem 12rem 01.5rem;
+  background-color: rgba(184, 223, 243, 0.6);
 }
 .box {
   display: flex;
@@ -925,7 +925,7 @@ body {
   border-radius: 1rem;
   text-align: center;
   box-sizing: border-box;
-  background-color: rgba(184, 223, 243, 0.6);
+  background-color: rgba(255, 255, 255, 0.6);
   box-shadow: rgb(60 88 193) 0px 2px 5px 2px;
 }
 
@@ -943,7 +943,7 @@ body {
   border-radius: 1rem;
   text-align: center;
   box-sizing: border-box;
-  background-color: rgba(184, 223, 243, 0.6);
+  background-color: rgba(255, 255, 255, 0.6);
   box-shadow: rgb(60 88 193) 0px 2px 5px 2px;
 }
 .box2:hover {
@@ -960,7 +960,7 @@ body {
   border-radius: 1rem;
   text-align: center;
   box-sizing: border-box;
-  background-color: rgba(184, 223, 243, 0.6);
+  background-color: rgba(255, 255, 255, 0.6);
   box-shadow: rgb(60 88 193) 0px 2px 5px 2px;
 }
 .box3:hover {
@@ -976,7 +976,7 @@ body {
   border-radius: 1rem;
   text-align: center;
   box-sizing: border-box;
-  background-color: rgba(184, 223, 243, 0.6);
+  background-color: rgba(255, 255, 255, 0.6);
   box-shadow: rgb(60 88 193) 0px 2px 5px 2px;
 }
 .box4:hover {
@@ -993,7 +993,7 @@ body {
   border-radius: 1rem;
   text-align: center;
   box-sizing: border-box;
-  background-color: rgba(184, 223, 243, 0.6);
+  background-color: rgba(255, 255, 255, 0.6);
 
   box-shadow: rgb(60 88 193) 0px 2px 5px 2px;
 }
@@ -1213,7 +1213,7 @@ body {
 .footer__grid-phone {
   text-decoration: none;
   font-family: Noto Sans, sans-serif;
-  font-weight: 900;
+  font-weight: 800;
   font-style: normal;
   color: black;
   font-size: 1.3rem;
@@ -1221,7 +1221,7 @@ body {
 .footer__grid-email {
   text-decoration: none;
   font-family: Noto Sans, sans-serif;
-  font-weight: 900;
+  font-weight: 800;
   font-style: normal;
   color: black;
   font-size: 1.3rem;
@@ -1229,7 +1229,7 @@ body {
 .footer__grid-time {
   text-decoration: none;
   font-family: Noto Sans, sans-serif;
-  font-weight: 900;
+  font-weight: 800;
   font-style: normal;
   color: black;
   font-size: 1.3rem;
@@ -1237,7 +1237,7 @@ body {
 .footer__grid-address {
   text-decoration: none;
   font-family: Noto Sans, sans-serif;
-  font-weight: 900;
+  font-weight: 800;
   font-style: normal;
   color: black;
   font-size: 1.3rem;
@@ -1264,7 +1264,7 @@ body {
   color: #dadce2;
   align-items: center;
   font-family: Noto Sans, sans-serif;
-  font-weight: 700;
+
   font-size: 1.1rem;
 }
 .footer__grid-map {
@@ -1275,11 +1275,13 @@ body {
 }
 .footer-bottom-copyright {
   font-family: Noto Sans, sans-serif;
-  font-weight: 900;
+  font-weight: 600;
 }
 .footer-bottom-registration {
   font-family: Noto Sans, sans-serif;
-  font-weight: 900;
+  font-weight: 600;
 }
-
-/* Конец блока footer */
+.footer-bottom-picts a {
+  font-family: Noto Sans, sans-serif;
+  font-weight: 600;
+}
