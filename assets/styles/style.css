@@ -812,7 +812,8 @@ body {
   display: flex;
   justify-content: flex-end;
   align-items: center;
-  background-image: url("../pics/back3.jpg");
+  background-image: url("../fotoset/zayavka2.jpg");
+  background-position: 0px 13%;
   background-repeat: no-repeat;
   background-size: cover;
   width: 100%;
