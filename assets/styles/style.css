@@ -39,7 +39,6 @@ body {
 .contacts__text {
   display: flex;
   flex-direction: column;
-  padding-left: 0.5rem;
 }
 
 .text_bold {
@@ -64,7 +63,7 @@ body {
   height: 3.44rem;
   position: relative;
   display: flex;
-  margin: 0 1rem 0 2.2rem;
+  margin: 0 0.7rem 0 2.2rem;
   z-index: 1;
   border-radius: 15.625rem;
   align-items: center;
@@ -120,7 +119,7 @@ body {
   align-self: center;
   padding-left: 1.5rem;
   font-size: 1.25rem;
-  color: #dadce2;
+  color: #fafcff;
   margin-left: 1.5rem;
   border-left-style: solid;
   border-left-width: 5px;
@@ -177,17 +176,17 @@ body {
   text-shadow: 1px 1px 2px black;
 }
 .banner-contacts > .text_thin {
-  color: #dadce2;
+  color: #fafcff;
 }
 
 .banner-socio {
-  grid-area: 4 / 1 / 5 / 2;
-  justify-self: flex-end;
+  grid-area: 4 / 1 / 5 / 1;
+  justify-self: flex-start;
   align-self: center;
   display: flex;
   flex-direction: row;
   justify-content: center;
-  margin-right: 4rem;
+  margin-left: 3rem;
 }
 
 .banner-socio > .contacts__circle:hover {

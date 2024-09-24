@@ -1,5 +1,6 @@
 @media (max-width: 1170px) {
   /* Header */
+
   .header-info {
     padding: 0.8rem 2rem 0.7rem 2rem;
   }
@@ -24,8 +25,17 @@
   /* Header */
 }
 
+@media (max-width: 1360px) {
+  .text_bold {
+    letter-spacing: 0;
+    font-weight: 800;
+    font-size: 0.9rem;
+  }
+}
+
 @media (max-width: 960px) {
   /* Header */
+
   .header-info {
     display: flex;
     flex-direction: column;
@@ -58,7 +68,7 @@
     padding-left: 1rem;
   }
   .banner-socio {
-    margin-right: 1.5rem;
+    margin: 2rem 0 1.5rem 3rem;
   }
   /* Header */
 
@@ -88,7 +98,7 @@
   }
   .header__two {
     display: grid;
-    grid-template-rows: 50% 50%;
+    grid-template-rows: 1fr 1fr 1fr;
     grid-template-columns: 12% 90%;
   }
   .contacts__text {
@@ -180,7 +190,7 @@
     font-size: 0.9rem;
   }
   .banner-socio {
-    margin-right: 2rem;
+    display: none;
   }
   /* Начало блока - Заявка */
   .application__form h2 {
@@ -220,7 +230,7 @@
     margin-top: 0.3rem;
     margin-left: 2rem;
     display: grid;
-    grid-template-rows: 50% 50%;
+    grid-template-rows: 1fr 1fr 1fr;
     grid-template-columns: 16% 90%;
   }
   .contacts__text {
