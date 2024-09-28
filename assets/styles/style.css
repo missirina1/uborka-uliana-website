@@ -1283,3 +1283,13 @@ body {
   font-family: Noto Sans, sans-serif;
   font-weight: 600;
 }
+.footer__img-small-location {
+  width: 45px;
+  border-radius: 30px;
+}
+.footer__grid-location-small {
+  font-family: Noto Sans, sans-serif;
+  font-weight: 800;
+  font-size: 1.3rem;
+  align-self: center;
+}
