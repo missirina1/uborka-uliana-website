@@ -101,6 +101,7 @@ body {
   padding-left: 4rem;
   font-size: 4.6rem;
   color: white;
+  margin-top: 4rem;
 }
 
 .banner-text {
@@ -109,6 +110,7 @@ body {
   align-items: center;
   flex-direction: row;
   margin-left: 4rem;
+  margin-top: 3rem;
 }
 
 .banner-text img {
@@ -120,7 +122,6 @@ body {
   padding-left: 1.5rem;
   font-size: 1.25rem;
   color: #fafcff;
-  margin-left: 1.5rem;
   border-left-style: solid;
   border-left-width: 5px;
   border-left-color: #24a5e8;
@@ -132,7 +133,8 @@ body {
   flex-direction: row;
   justify-self: flex-start;
   align-self: start;
-  padding-left: 4rem;
+  padding-left: 3.5rem;
+  margin-top: 1rem;
 }
 
 .header__form-button {
@@ -186,7 +188,8 @@ body {
   display: flex;
   flex-direction: row;
   justify-content: center;
-  margin-left: 3rem;
+  margin-left: 2rem;
+  margin-top: 2rem;
 }
 
 .banner-socio > .contacts__circle:hover {
